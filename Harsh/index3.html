@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<style>
+#form{
+    text-align: center;
+    font-size: 40px;
+
+}
+.box{
+    width: 200px; height: 20px;
+}
+.box1{
+    width: 200px; height: 20px;
+}
+body{
+        text-align: center;
+    }
+    table, th, td {
+        border: 1px solid black; font-size: 20px; text-align: left; }
+
+</style>
+<body>
+
+    <form id="form">
+<label for="sname">Student Name:</label><br>
+<input class ="box" type="text" id="sname" name="sname" placeholder="harsh" ><br><br>
+
+<label for="snum">Student Number:</label><br>
+<input class ="box" type="numer" id="num" name="snum" placeholder="119" ><br><br>
+<label for="city">Student city:</label><br>
+<input class ="box" type="text" id="city" name="city" placeholder="Ahmedabad" ><br><br>
+<input class="box1" type="reset" onclick="bmit()" value="Submit"></input>
+
+
+    </form>
+    <br><br><br><br><br>
+    <table style="margin-left:auto;margin-right:auto">
+        <tr>
+<th>
+    Number
+</th>
+<th>
+    Details
+</th>
+<th>
+    Information
+</th>
+</tr>
+<tr>
+<td>
+
+1</td>
+<td>
+    Student name
+</td>
+<td id="name1">
+</td>
+
+</tr>
+<tr>
+    <td>
+    
+    2</td>
+    <td>
+        Student Number
+    </td>
+    <td id="number1">
+
+    </td>
+    </tr>
+    <tr>
+        <td>
+        
+        3</td>
+        <td>
+            Student City
+        </td>
+        <td id="city1">
+            
+        </td>
+        </tr>
+</table>
+
+<br> <br> <br>
+<label id="submi" ></label>
+    <button onclick="submit()">Submit</button>
+   
+
+
+</body>
+</html>
+<script>
+
+
+function bmit(){
+   
+  var student=document.getElementById("sname").value
+  var student1=document.getElementById("num").value
+  var student2=document.getElementById("city").value
+ function stform1(student,student1,student2)
+ {
+
+    this.studentnam=student
+    this.studentnum=student1
+    this.studentcity=student2
+ }
+stform1()
+var count=new stform1(student,student1,student2)
+console.log(count)
+localStorage.setItem('a',JSON.stringify(count))
+
+}
+
+function submit(){
+var stud=localStorage.getItem('a')
+var stud1=JSON.parse(stud)
+var a=Object.values(stud1);
+document.getElementById("name1").innerHTML=a[0]
+document.getElementById("number1").innerHTML=a[1]
+document.getElementById("city1").innerHTML=a[2]
+
+}
+
+</script>
+
+  

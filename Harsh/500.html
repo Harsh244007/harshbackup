@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+
+    <style>
+#title{
+    text-align: center;
+}
+#center{
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+.image{
+    text-align: center; width:300px;
+}
+
+#click:hover{
+    color:red;
+    font-size: 20px;
+}
+@media only screen and (max-width: 480px) {
+ .image{
+     width: 100px; text-align: center;
+ } 
+ #title{
+     font-size: 20px;
+ }  
+ .description{
+     font-size: 10px;
+ }
+ #click:hover{
+    color:red;
+    font-size: 12px;
+}
+}
+@media only screen and (max-width: 250px) {
+ .image{
+     width: 100px; text-align: center;
+ } 
+ #title{
+     font-size: 15px;
+ }  
+ .description{
+     font-size: 8px;
+ }
+ #click:hover{
+    color:red;
+    font-size: 9px;
+}
+}
+@media only screen and (max-width: 170px) {
+ .image{
+     width: 80px; text-align: center;
+ } 
+ #title{
+     font-size: 12px;
+ }  
+ .description{
+     font-size: 7px;
+ }
+ #click:hover{
+    color:red;
+    font-size: 8px;
+}
+}
+    </style>
+    
+    <title>Errorpage</title> 
+</head>
+
+<body>
+
+    <div class="error" id="error">
+            <div class="container">
+                <div id="center"><img class="image" src="https://customtradingfunds.com/images/errorwhite.jpg
+                    ">
+                    <h1 id="title">Sorry, this page is not available.</h1>
+                    <p class="description">Please go back to main page by clicking <a id="click"href="https://customtradingfunds.com/">here.</a></p>
+                </div>
+        </div>
+</body>
+
+</html>

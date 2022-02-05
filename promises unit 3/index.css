@@ -1,0 +1,44 @@
+.main{
+    display: grid;
+}
+.main>h1{
+    text-align: center; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
+}
+.mac{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: left; font-size: 20px; margin: 20px 20px 20px 20px;
+    border: 1px solid red; border-radius: 10px;
+}
+.mac>input{
+    width: 20px; margin-left: 40px; height: 20px; 
+}
+.mac>h3{
+    margin-left: 40px; font-size: 30px;
+}
+#body>h1{
+    text-align: center; font-size: 50px;
+}
+#submit{
+    background-color: green;
+    width: 200px; height: 30px; margin-left: 40px; font-size: 20px; color: white; border-radius: 7px;
+}
+.image{
+    border: 1px solid black; height: 600px;
+text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+#orderi{
+    text-align: center; font-size: 30px;
+}
+#image{
+    width: 40%; fon
+}
+#texti{
+    text-align: center; font-size: 30px;
+}
+#rd3{
+    grid-column-start: 7;
+    grid-column-end: 8;
+}

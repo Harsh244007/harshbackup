@@ -1,0 +1,57 @@
+
+  function runProgram(input){
+    var input1,i2,a,b,c,d,i,k,l=[],min=0;
+      input=input.trim().split("\n")
+    input1=input[0].trim().split(" ").map(Number)
+    i2=input[1].trim().split(" ").map(Number)
+    for(i=0;i<input1;i++)
+    {
+      min=i;
+     for(j=i;j<input1;j++)
+     {
+         if(i2[min]>i2[j])
+         {
+             l=i2[min];
+    
+    
+    
+             i2[min]=i2[j];
+             i2[j]=l;
+         }
+     }
+     console.log(i2[min])
+     
+        
+    }
+    }
+   
+    if (process.env.USER === "") {
+        runProgram(``);
+      } else {
+        process.stdin.resume();
+        process.stdin.setEncoding("ascii");
+        let read = "";
+        process.stdin.on("data", function (input) {
+          read += input;
+        });
+        process.stdin.on("end", function () {
+          read = read.replace(/\n$/, "");
+          read = read.replace(/\n$/, "");
+          runProgram(read);
+        });
+        process.on("SIGINT", function () {
+          read = read.replace(/\n$/, "");
+          runProgram(read);
+          process.exit(0);
+        });
+      }
+      <!--   
+  function swap(arr[],index[],i,j){
+    temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+    temp = index[i];
+    index[i] = index[j];
+    index[j] = temp;
+} -->
+  

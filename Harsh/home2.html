@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en-us">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Custom Forex Funds"/>
+    <meta property="og:title" content="Custom Trading Funds" />
+    <meta property="og:description" content="Custom Trading Funds" />
+    <title>Home Page</title>
+
+        <style>
+      #errorhead{ 
+    color:white; background-color: #1e1e1e; display: grid; position: static; 
+    margin-left: 20px; margin-right: 20px;
+    }
+   #p1{
+       font-size: 30px; margin: 6px 2px 2px 2px;
+   }
+   #p2{
+       font-size: 20px;margin: 15px 2px 2px 2px;
+   }
+   #verticalli{
+    
+            height: 200px;
+            position:absolute;
+            left: 50%;
+   }
+    #headingtitle{
+        grid-column-start: 1;grid-column-end: 2;grid-row-start: 1;grid-row-end: 1;    }
+        #headingtitle2{
+             grid-column-start: 2;grid-column-end: 60;grid-row-start: 1;grid-row-end: 1;  
+        }
+    #switchwhitemode{
+  grid-column-start: 60;grid-column-end:61;grid-row-start: 1;grid-row-end: 1; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;     }
+  #errortitle{
+      display: block;   margin: 0px 0px 0px 0px
+  }  #errortitle1{
+      display: block;   margin: 0px 0px 0px 0px
+  }
+    #errorbody{
+    color:white; background-color: #1e1e1e;  margin-left: 20px; margin-right: 20px;
+    }
+    #errorbody1{
+    color:white; background-color: #1e1e1e;
+    }
+    #errorcenter{
+        text-align: center;
+    }
+    .errordescription{
+        text-align: center; font-size:16px;
+    }
+    #errorimage{
+        text-align: center; width:300px; border-radius: 25px; border: 1px solid #1e1e1e;;
+    }
+    
+    
+    #errorclick1:hover{
+        color:red ;
+        font-size: 20px !important;
+    }
+    
+    /* Rounded sliders */
+    .slider.round {
+    border-radius: 34px;
+    }
+    
+    .slider.round:before {
+    border-radius: 50%;
+    }
+    .switch {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    }
+    
+    .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+    }
+    
+    .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    }
+    
+    .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    }
+    
+    input:checked + .slider {
+    background-color: #1e1e1e;;
+    }
+    input:focus + .slider {
+    box-shadow: 0 0 1px #1e1e1e;;
+    }
+    
+    input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    }
+    /* end of slider */
+    #errorclick1{
+        color: white;
+    }
+   
+    @media only screen and (max-width:900px) {
+    #errorimage{
+        width: 300px; text-align: center; 
+    }  #errortitle{
+        display: none;
+    }
+    .switch {
+    display: none;
+    }
+    
+    .slider:before {
+    height: 15px;
+    width: 15px;
+    }
+    #errortitle1{
+        font-size: 18px;
+    }  
+    .errordescription{
+        font-size: 16px;
+    }
+    
+    #errorclick1:active{
+        color:red;
+        font-size: 18px !important;
+    }
+    }
+    @media only screen and (max-width: 500px) {
+    #errorimage{
+        width: 200px; text-align: center;
+    } 
+    
+    #p1{
+       font-size: 16px;
+   }
+   #p2{
+       font-size: 16px;
+   }
+    
+    #errortitle1{
+        font-size: 15px;
+    }  
+    .errordescription{
+        font-size: 8px;
+    }
+    #errorclick1:active{
+        color:red;
+        font-size: 10px !important;
+    }
+    }
+    @media only screen and (max-width:250px) {
+    #errorimage{
+        width: 80px; text-align: center;
+    } 
+    #errortitle1{
+        font-size: 12px;
+    }  
+    #p1{
+       font-size: 10px;
+   }
+   #p2{
+       font-size: 10px;
+   }
+    
+    .errordescription{
+        font-size: 6px;
+    }
+    #errorclick1:active{
+        color:red;
+        font-size: 8px !important;
+    }
+    }
+        </style>
+        
+        <title>HomePage</title> 
+    
+    <head>
+    <div id="errorhead">
+        <div id="headingtitle">
+
+            <p id="p1">CTF</p>
+    <div class = "verticalli"></div> </div> 
+    <div id="headingtitle2">
+
+        <p id="p2">CUSTOMTRADINGFUNDS</p>
+</div>
+
+        <div id="switchwhitemode">
+        <h3 id="errortitle">White Mode</h3>
+        <label class="switch">
+            <input id="checked" onchange="dark()" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
+
+</div></head>
+<body id="errorbody1">  <div id="errorbody">
+    <br><br><br><br><br><br>
+        <div class="error" id="error">
+                <div class="container">
+                    <div id="errorcenter"><img id="errorimage" src="https://customtradingfunds.com/images/errorwhite.jpg
+                        "><br><br><br>
+                        <h1 id="errortitle1">Sorry, this page is under Maintenance.</h1>
+                        <p class="errordescription">Please Email us for any inquiries by clicking <a id="errorclick1" href="mailto:support@custoptradingfunds.com">here.</a></p>
+                    </div>
+            </div>
+            <h1>h</h1><br><h1>h</h1><br><h1>h</h1><br><h1>h</h1><br><h1>h</h1><br><h1>h</h1><br><h1>h</h1><br><h1>h</h1><br>
+</body>
+    <script>
+        var count=2;
+        function dark()
+        { count++;
+        if(count%2==0)
+        {document.getElementById("errorclick1").style.color = "white";
+            document.getElementById("errorbody").style.color = "white";
+            document.getElementById("errorbody").style.backgroundColor ="#1e1e1e";
+            document.getElementById("errorbody1").style.color = "white";
+            document.getElementById("errorbody1").style.backgroundColor ="#1e1e1e";
+            document.getElementById("errorhead").style.color = "white";
+            document.getElementById("errorhead").style.backgroundColor ="#1e1e1e";
+            
+    }
+        else{
+            document.getElementById("errorclick1").style.color = "black";
+            document.getElementById("errorbody").style.color = "black";
+            document.getElementById("errorbody").style.backgroundColor = "white"; 
+            document.getElementById("errorbody1").style.color = "black";
+            document.getElementById("errorbody1").style.backgroundColor = "white"; 
+            document.getElementById("errorhead").style.color = "black";
+            document.getElementById("errorhead").style.backgroundColor ="white";
+        }
+    }
+
+
+
+    
+    </script>
+    </html>
+    

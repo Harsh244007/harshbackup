@@ -1,0 +1,34 @@
+
+#navbar{
+    border:2px solid black; height: 45px; margin-left: 15px; margin-right: 15px; display: grid;
+}
+#home{
+    font-weight: bold; margin-top: 15px; grid-column-start: 15; grid-column-end: 16; grid-row-start: 1; grid-row-end: 1;
+}
+#login{
+    font-weight: bold; margin-top: 15px; grid-column-start: 16; grid-column-end: 17; grid-row-start: 1; grid-row-end: 1;
+}
+#signup{
+    font-weight: bold; margin-top: 15px; grid-column-start: 17; grid-column-end: 18; grid-row-start: 1; grid-row-end: 1;
+}
+#signupform{
+    box-shadow: 0 0 20px 1px gray;  width: 359px; height: 350px; text-align: center; border-radius: 10px;  margin-left: 530px;
+}
+#signup-form-div{
+text-align: center;
+}
+#h1signup{
+    padding: 20px 0px 0px 0px;
+}
+#emails{
+    height: 25px; border-radius: 2px black;
+}
+#passs{
+    height: 25px; border-radius: 2px black;
+}
+#submits{
+    width: 120px; height: 30px; color: white; background-color: green; border-radius: 3px;
+}
+.hyper{
+    text-decoration: none;color: black;
+}

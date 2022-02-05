@@ -1,0 +1,173 @@
+    <!DOCTYPE html>
+    <html lang="en-us">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+
+        <style>
+
+    #errorbody{
+    color:white; background-color: #1e1e1e;
+    }
+    #errorcenter{
+        text-align: center;
+    }
+    .errordescription{
+        text-align: center; font-size:16px;
+    }
+    .errorimage{
+        text-align: center; width:300px; border-radius: 25px;
+    }
+
+
+    #errorclick1:hover{
+        color:red ;
+        font-size: 20px !important;
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+    border-radius: 34px;
+    }
+
+    .slider.round:before {
+    border-radius: 50%;
+    }
+    .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    }
+
+    .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+    }
+
+    .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    }
+
+    .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    }
+
+    input:checked + .slider {
+    background-color: #1e1e1e;;
+    }
+    input:focus + .slider {
+    box-shadow: 0 0 1px #1e1e1e;;
+    }
+
+    input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    }
+    /* end of slider */
+    #errorclick1{
+        color: white;
+    }
+    @media only screen and (max-width: 480px) {
+    .errorimage{
+        width: 300px; text-align: center;
+    } 
+    #errortitle{
+        font-size: 20px;
+    }  
+    .errordescription{
+        font-size: 13px;
+    }
+   
+    #errorclick1:active{
+        color:red;
+        font-size: 15px !important;
+    }
+    }
+    @media only screen and (max-width: 250px) {
+    .errorimage{
+        width: 100px; text-align: center;
+    } 
+    #errortitle{
+        font-size: 15px;
+    }  
+    .errordescription{
+        font-size: 8px;
+    }
+    #errorclick1:active{
+        color:red;
+        font-size: 10px !important;
+    }
+    }
+    @media only screen and (max-width: 170px) {
+    .errorimage{
+        width: 80px; text-align: center;
+    } 
+    #errortitle{
+        font-size: 12px;
+    }  
+    .errordescription{
+        font-size: 7px;
+    }
+    #errorclick1:active{
+        color:red;
+        font-size: 9px !important;
+    }
+    }
+        </style>
+        
+        <title>Errorpage</title> 
+    </head>
+
+    <body id="errorbody">
+        <h3 id="errortitle">White Mode</h3>
+        <label class="switch">
+            <input id="checked" onchange="dark()" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        
+    <br><br><br><br><br><br>
+        <div class="error" id="error">
+                <div class="container">
+                    <div id="errorcenter"><img class="errorimage" src="https://customtradingfunds.com/images/errorwhite.jpg
+                        "><br><br><br>
+                        <h1 id="errortitle">Sorry, this page is not available.</h1>
+                        <p class="errordescription">Please go back to main page by clicking <a id="errorclick1" href="https://customtradingfunds.com/">here.</a></p>
+                    </div>
+            </div>
+    </body>
+    <script>
+        var count=2;
+        function dark()
+        { count++;
+        if(count%2==0)
+        {document.getElementById("errorclick1").style.color = "white";
+            document.getElementById("errorbody").style.color = "white";
+            document.getElementById("errorbody").style.backgroundColor = "#1e1e1e";}
+        else{
+            document.getElementById("errorclick1").style.color = "black";
+            document.getElementById("errorbody").style.color = "black";
+            document.getElementById("errorbody").style.backgroundColor = "white";         
+        }
+    }
+    </script>
+    </html>

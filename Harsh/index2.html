@@ -1,0 +1,197 @@
+<!DOCTYPE>
+<html>
+<head>
+    <br><br><br>
+    <div  id="head1">
+<button class="head" onclick="objects()"><h1>Objects</h1></button>
+<button class="head" onclick="array()"><h1>Arrays</h1></button>
+<button class="head" onclick="functio()"><h1>Function</h1></button>
+<button class="head" onclick="string()"><h1>String</h1></button>
+<button class="head" onclick="number()"><h1>Number</h1></button>
+<button class="head" onclick="nul()"><h1>Null</h1></button>
+<button class="head" onclick="undefine()"><h1>Undefined</h1></button>
+<br><br><br></div>
+</head>
+<style>
+
+    body{
+        margin: 0px 60px 0px 60px;
+    }
+    #head1{
+        text-align: center;
+    }
+    .head{
+        margin: 0px 20px 0px 20px; 
+    }
+    #obj{
+        display: none; font-size: 25px;
+    }
+    #arr{
+        display: none; font-size: 25px;
+    }
+    #fun{
+        display: none; font-size: 25px;
+    }
+    #str{
+        display: none; font-size: 25px;
+    }
+    #num{
+        display: none; font-size: 25px;
+    }
+    #nul{
+        display: none; font-size: 25px;
+    }
+    #und{
+        display: none; font-size: 25px;
+    }
+
+</style>
+<body>
+    <br>
+<div id="obj">
+    <h2> Objects</h2>
+<li>A JavaScript object is a collection of named values</li>
+<li>In JavaScript, almost "everything" is an object.</li>
+<li>Objects are variables too. But objects can contain many values.</li>
+<li>var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};</li>
+<li>In above example there are 4 values under objects</li>
+</div>
+
+<div id="arr">
+    <h2> Arrys</h2>
+    <li>An array is a special variable, which can hold more than one value
+    </li>
+    <li>Example  of array => var cars = ["Saab", "Volvo", "BMW"];</li>
+    <li>if we wanted store name of this car maker if we store via variable it would take 3 variable but with array we can do in one array.</li>
+
+    </div>
+
+    <div id="fun">
+        <h2> Functions</h2>
+        <li>A JavaScript function is a block of code designed to perform a particular task.
+
+          </li>
+        <li>  A JavaScript function is executed when "something" invokes it (calls it).</li>
+        <li>Example => function myFunction(p1, p2) {
+            return p1 * p2;   // The function returns the product of p1 and p2
+          }</li>
+    
+        </div>
+
+        <div id="str">
+            <h2> Strings</h2>
+            <li>JavaScript strings are for storing and manipulating text.
+
+            </li>
+            <li>A JavaScript string is zero or more characters written inside quotes.
+
+            </li>
+            <li>example => var text = "John Doe";</li>
+            <li>You can use single or double quotes:
+<br>
+let carName1 = "Volvo XC60";  // Double quotes<br>
+let carName2 = 'Volvo XC60';  // Single quotes
+            </li>
+           
+            </div>
+
+            <div id="num">
+                <h2> Numbers</h2>
+                <li>JavaScript has only one type of number. Numbers can be written with or without decimals.
+
+                </li>
+                <li>Example => <br>let x = 3.14;    // A number with decimals<br>
+                    let y = 3;       // A number without decimals</li>
+                <li>JavaScript Numbers are Always 64-bit Floating Point
+                </li>
+                <li>Unlike many other programming languages, JavaScript does not define different types of numbers, like integers, short, long, floating-point etc.</li>
+                <li>JavaScript numbers are always stored as double precision floating point numbers.</li>
+               
+                </div>
+
+                <div id="nul">
+                    <h2> Null</h2>
+                    <li>The value null represents the intentional absence of any object value</li>
+                    <li>It is one of JavaScript's primitive values and is treated as falsy for boolean operations.</li>
+                    <li>Example = > <br>
+                        var a=[]  it can also expressed as var a=null;
+                    </li>
+                   
+                    </div>
+
+                    <div id="und">
+                        <h2> Undefinded</h2>
+                        <li>The global undefined property represents the primitive value undefined. It is one of JavaScript's primitive types.</li>
+                        <li>undefined is a property of the global object. That is, it is a variable in global scope. </li>
+                        <li>A variable that has not been assigned a value is of type undefined.</li>
+                        <li> A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.</li>
+                        
+                        </div>
+</body>
+<script>
+function objects(){
+    document.getElementById("arr").style.display="none";
+    document.getElementById("obj").style.display="block";
+    document.getElementById("fun").style.display="none";
+    document.getElementById("str").style.display="none";
+    document.getElementById("num").style.display="none";
+    document.getElementById("nul").style.display="none";
+    document.getElementById("und").style.display="none";
+    console.log(1)
+}
+function array(){
+    document.getElementById("arr").style.display="block";
+    document.getElementById("obj").style.display="none";
+    document.getElementById("fun").style.display="none";
+    document.getElementById("str").style.display="none";
+    document.getElementById("num").style.display="none";
+    document.getElementById("nul").style.display="none";
+    document.getElementById("und").style.display="none";
+}
+function functio(){
+    document.getElementById("arr").style.display="none";
+    document.getElementById("obj").style.display="none";
+    document.getElementById("fun").style.display="block";
+    document.getElementById("str").style.display="none";
+    document.getElementById("num").style.display="none";
+    document.getElementById("nul").style.display="none";
+    document.getElementById("und").style.display="none";
+}
+function string(){
+    document.getElementById("arr").style.display="none";
+    document.getElementById("obj").style.display="none";
+    document.getElementById("fun").style.display="none";
+    document.getElementById("str").style.display="block";
+    document.getElementById("num").style.display="none";
+    document.getElementById("nul").style.display="none";
+    document.getElementById("und").style.display="none";
+}
+function number(){ 
+    document.getElementById("arr").style.display="none";
+    document.getElementById("obj").style.display="none";
+    document.getElementById("fun").style.display="none";
+    document.getElementById("str").style.display="none";
+    document.getElementById("num").style.display="block";
+    document.getElementById("nul").style.display="none";
+    document.getElementById("und").style.display="none";
+    
+}function nul(){
+    document.getElementById("arr").style.display="none";
+    document.getElementById("obj").style.display="none";
+    document.getElementById("fun").style.display="none";
+    document.getElementById("str").style.display="none";
+    document.getElementById("num").style.display="none";
+    document.getElementById("nul").style.display="block";
+    document.getElementById("und").style.display="none";
+}
+function undefine(){
+    document.getElementById("arr").style.display="none";
+    document.getElementById("obj").style.display="none";
+    document.getElementById("fun").style.display="none";
+    document.getElementById("str").style.display="none";
+    document.getElementById("num").style.display="none";
+    document.getElementById("nul").style.display="none";
+    document.getElementById("und").style.display="block";
+}
+</script>
+</html>

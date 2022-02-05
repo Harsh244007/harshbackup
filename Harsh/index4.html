@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<style>
+    body{
+        text-align: center;
+    }
+    table, th, td {
+        border: 1px solid black; font-size: 20px; text-align: left; }
+</style>
+<body>
+
+
+
+</body>
+<script>
+    function submit(){
+var stud=localStorage.getItem('a')
+var stud1=JSON.parse(stud)
+var a=Object.values(stud1);
+document.getElementById("name").innerHTML=a[0]
+document.getElementById("number").innerHTML=a[1]
+document.getElementById("city").innerHTML=a[2]
+
+}
+</script>
