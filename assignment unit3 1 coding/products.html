@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    
+
+    button{
+    }
+    select{
+        margin-top: 10px; padding: 10px; cursor: pointer;
+    }
+    #navbar{
+background-color: white; display: flex; flex-direction: row-reverse; padding: 20px;
+    }
+    #navbar>*{
+        margin-left: 10px; margin-right: 10px;
+    }
+    #container{
+        display: grid; grid-template-columns: repeat(4,1fr); gap: 20px; width: 90%; margin: auto; margin-top: 28px;
+     }
+     #container>div{
+         padding: 10px; border: 1px solid white; display: flex; flex-direction: column; align-items: center; justify-content: center;
+     }
+     .text-align-center{
+         text-align: center;
+     }
+</style>
+
+</head>
+<body>
+  <div id="navbar">
+<div id="cart-count"></div>
+<a href="/assignment unit3 1 coding/cart.html">Cart</a>
+</div>
+<div id="sort-filter">
+<select name="sort" id="sortbutton" onchange="sortproducts()">
+<option value="">SORT</option>
+<option value="asc">LOW TO HIGH</option>
+<option value="dec">HIGH TO LOW</option>
+</select>
+<select name="filter" id="filterbutton" onchange="filterproducts()">
+<option value="">FILTER</option>
+<option value="0-50">0 - 50</option>
+<option value="51-150">51-150</option>
+<option value="150">GREATER THEN 150</option>
+</select>
+</div>
+<div id="container"></div>
+</body>
+<script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var url="https://fakestoreapi.com/products";
+var container=document.getElementById("container")
+
+async function getproducts(){
+    try{
+var prodcutslist=await fetchproducts(url);
+console.log(prodcutslist)
+renderproducts(prodcutslist);
+    }
+catch(error){
+    console.log("error");
+}
+}
+
+getproducts()
+
+var cart= localStorage.getItem("cart")
+if(!cart)
+{
+    cart=[]
+    localStorage.setItem("cart",JSON.stringify(cart))
+    refreshCartcount(cart)
+}
+else{
+    cart=JSON.parse(cart)
+    refreshCartcount(cart)
+}
+
+function refreshCartcount(cart)
+{
+    var cartcount=document.getElementById('cart- count')
+    cartcount.textContent="Cart count: "+art.length;
+}
+console.log(cart)
+function fetchproducts(url){
+    return fetch(url)
+.then(function (res){
+return res.json();
+});
+.then(function(res){
+    return res;
+}).catch(function(err)  {
+    console.log("error1")
+});
+}
+
+async function sortproducts(){
+try{
+    let prodcutslist= await fetchproducts(url)
+
+    let sortcriteria= document.getElementById("sortbutton").value
+
+    let filtercriteria= document.getElementById("filterbutton").value
+
+
+    if(sortcriteria)
+    {
+        let updatedproductlist=prodcutslist.filter(filterFunction).sort(function sortfunction(prodA,prodB){
+
+            if(sortcriteria=="asc")
+            return prodA.price-prodB.price;
+            else if(sortcriteria="dec")
+            return prodB.price-prodA.price;
+        });
+        renderproducts(updatedproductlist);
+    }
+        function filterFunction(prod){
+
+if(filtercriteria=="0-150")
+return prod.price<=150;
+else if(filtercriteria=="51-150")
+return prod.price>50 && prod.price<=150
+else if(filtercriteria==">150")
+return prod.price>150
+else
+return true;
+}); 
+    
+    }
+    else{
+        let updatedproductlist=prodcutslist.filter(filterFunction)
+        renderproducts(updatedproductlist)
+    }
+}
+function filterFunction(prod){
+
+if(filtercriteria=="0-150")
+return prod.price<=150;
+else if(filtercriteria=="51-150")
+return prod.price>50 && prod.price<=150
+else if(filtercriteria==">150")
+return prod.price>150
+else
+return true;
+}); 
+catch(error){
+    console.log("error2")
+}
+}
+
+
+
+
+async function filterproducts(){
+try{
+    let prodcutslist= await fetchproducts(url)
+
+    let filtercriteria= document.getElementById("filterbutton").value
+    let sortcriteria= document.getElementById("sortbutton").value
+
+    let updatedproductlist=prodcutslist.filter(filterFunction);
+        
+    if(sortcriteria)
+    {
+        let updatedproductlist=prodcutslist.filter(filterFunction).sort(function sortfunction(prodA,prodB){
+
+            if(sortcriteria=="asc")
+            return prodA.price-prodB.price;
+            else if(sortcriteria="dec")
+            return prodB.price-prodA.price;
+        });
+        renderproducts(updatedproductlist);
+    }    renderproducts(updatedproductlist)
+
+else{
+    let updatedproductlist = prodcutslist.filter(filterFunction);
+    renderproducts(updatedproductlist)
+}
+function filterFunction(prod){
+
+if(filtercriteria=="0-150")
+return prod.price<=150;
+else if(filtercriteria=="51-150")
+return prod.price>50 && prod.price<=150
+else if(filtercriteria==">150")
+return prod.price>150
+else
+return true;
+});
+}
+catch(error){
+    console.log("error3")
+}
+
+function renderproducts(prodcutslist){
+    container.innerHTML="";
+
+    products.forEach(function (prod)
+    {
+        let prodcard=document.createElement("div");
+
+let image=document.createElement("img")
+image.src=prod.image
+
+let title=document.createElement("p")
+title.textContent=prod.title
+
+let price=document.createElement("p")
+price.textContent="Price : INR"+prod.price
+
+let addtocartbutton=document.createElement("button")
+addtocartbutton.textContent+"Add to cart";
+addtocartbutton.onclick= function(event){
+    console.log(prod.title)
+    addtocart(prod)
+}
+
+prodcard.append(image,title,price)
+container.append(prodcard)
+
+
+
+    })
+}
+
+
+
+
+</script>
+</html>
