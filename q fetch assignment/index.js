@@ -89,12 +89,6 @@ else{
     div.append(img,t1,year,imdb);
 }
 container.append(div);
-
-
-
-
-
-
 });
 
 };

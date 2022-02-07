@@ -1,1 +1,15 @@
-jskjs
+.img{
+    width:40%;
+}
+.div{
+    margin: 40px 20px 40px 0px;
+}
+.div>p{
+font-weight: bold;
+}
+#checkout{
+    font-size: 20px;
+}
+#checkout:hover{
+    font-size: 30px;
+}

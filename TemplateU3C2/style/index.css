@@ -1,18 +1,40 @@
 #navbar{
-    display: grid; text-align: right;
+    display: grid; grid-template-columns: repeat(4,10%); 
 }
 #navbarmenu{
-font-size: 50px;
+    grid-column-start: 7;    grid-column-end: 8;
 }
+
 #signin{
-
+    grid-column-start: 8;    grid-column-end: 9;
 }
+
 #signup{
-
+    grid-column-start: 9;    grid-column-end: 10;
 }
+
 #cart{
-
+    grid-column-start: 10;    grid-column-end: 11;
 }
-#count{
 
+#count{
+    grid-column-start: 11;    grid-column-end: 12; font-size: 30px; margin: auto;
+}
+#menu{
+     display: grid; grid-template-columns: repeat(4,1fr); 
+}
+.div{
+    margin: 10px;
+}
+.img{
+    width: 85%; border-radius: 5px;
+}
+.name{
+    font-weight: bold;content: "\A";
+}
+.name::before{
+    content: "\A\A";
+}
+.price{
+    font-weight: bold;content: "\A";
 }
