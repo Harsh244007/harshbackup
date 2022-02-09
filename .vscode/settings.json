@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.NoBrowser": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "diffEditor.renderSideBySide": false,
+    "wrap-console-log.alwaysInputBoxOnPrefix": true,
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "react-native-tools.networkInspector.consoleLogsColorTheme": "Dark",
+    "git.autofetch": "all",
+    "settingsSync.ignoredSettings": [
+        "git.decorations.enabled"
+    ],
+    "git.decorations.enabled": false,
+    "workbench.editor.decorations.badges": false,
+    "workbench.editor.decorations.colors": false,
+    "workbench.settings.editor": "json"
+}
