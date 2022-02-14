@@ -1,0 +1,39 @@
+#body{
+    color: white; background-color:#191919;
+}
+  #navbar1{
+  display: flex; gap: 200px; font-size:30px;
+  text-align:center;
+  color: white; background-color:#191919;
+  }
+  #search1{
+  width: 200px; height: 20px; border-radius:  10px;
+  background-color: #191919; color:white;
+  }
+  #search1::placeholder{
+      color: white;
+  }
+  .a1{
+      text-decoration: none !important;
+      color: white;
+  }
+  #home>h1{
+      font-weight: 100; font-size:25px
+  }
+  .a1:visited{
+      color: white;
+  } 
+  .error1{
+      font-size: 20px;
+      text-align:center;
+      display:none;
+  }
+  .image{
+      width: 400px;
+  }
+  #home{
+      text-align:center; display:block;
+  }
+  p{
+      font-size:20px
+  }
