@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+<style>
+    #div1{
+border:1px solid black;
+  }
+  #image{
+      width:280px; height:150px;
+  }
+  #main{
+      display:grid;
+      grid-template-columns: repeat(3,30%); gap:20px; justify-content:space-around;
+  }
+  #p0{
+    font-weight: bold;
+  }
+  #p1{
+    font-weight: normal;
+  }
+</style>
+  <body>
+    <div id="container">
+      <div id="sidebar">
+
+
+
+      </div>
+      <br>
+
+      <div id="main">
+        <!--DO NOT CHANGE THIS ID's-->
+
+      </div>
+    </div>
+  </body>
+
+</html>
+<script type="module">
+  import sidebar from "/harsh1/components/sidebar.js"
+  var sidebar1=document.getElementById("sidebar")
+sidebar1.innerHTML =sidebar();
+
+var searchbar=document.getElementById("searchbar")
+searchbar.addEventListener("keypress",(e)=>{
+  if(e.key=="Enter"){
+    let input_value = document.getElementById("searchbar").value
+
+    localStorage.setItem("search_term",input_value)
+    window.location.href="/harsh1/search.html"
+  }
+})
+  
+
+
+ import { apiCall, appendArticles } from"/harsh1/scripts/main.js";
+ var apikey="d3addb4f7a6e1297c315d53540401d60";
+
+let articles= await apiCall(`https://gnews.io/api/v4/top-headlines?token=${apikey}&lang=en&country=in`);
+let main=document.getElementById("main")
+appendArticles(articles,main)
+
+// https://gnews.io/api/v4/top-headlines?token=19ffa4ed7f145c2f8bb7be470b39314e
+// GET https://gnews.io/api/v4/search?q=example&token=API-Token
+
+  </script>

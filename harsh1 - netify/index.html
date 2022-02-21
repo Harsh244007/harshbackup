@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+<style>
+    #div1{
+border:1px solid black;
+  }
+  #image{
+      width:280px; height:150px;
+  }
+  #main{
+      display:grid;
+      grid-template-columns: repeat(3,30%); gap:20px; justify-content:space-around;
+  }
+  #p0{
+    font-weight: bold;
+  }
+  #p1{
+    font-weight: normal;
+  }
+</style>
+  <body>
+    <div id="container">
+      <div id="sidebar">
+
+
+
+      </div>
+      <br>
+
+      <div id="main">
+        <!--DO NOT CHANGE THIS ID's-->
+
+      </div>
+    </div>
+  </body>
+
+</html>
+<script type="module">
+  import sidebar from "/components/sidebar.js"
+  var sidebar1=document.getElementById("sidebar")
+sidebar1.innerHTML =sidebar();
+
+var searchbar=document.getElementById("searchbar")
+searchbar.addEventListener("keypress",(e)=>{
+  if(e.key=="Enter"){
+    let input_value = document.getElementById("searchbar").value
+
+    localStorage.setItem("search_term",input_value)
+    window.location.href="/search.html"
+  }
+})
+  
+
+
+ import { apiCall, appendArticles } from"/scripts/main.js";
+ var apikey="60fba0315a8df932b567f7ae989fd6be";
+
+let articles= await apiCall(`https://gnews.io/api/v4/top-headlines?token=${apikey}&lang=en&country=in`);
+let main=document.getElementById("main")
+appendArticles(articles,main)
+
+
+  </script>

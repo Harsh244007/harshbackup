@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+<style>
+  #div1{
+border:1px solid black;
+  }
+  #image{
+      width:280px; height:150px;
+  }
+  #main{
+      display:grid;
+      grid-template-columns: repeat(3,30%); gap:20px; justify-content:space-around;
+  }
+  #p0{
+    font-weight: bold;
+  }
+  #p1{
+    font-weight: normal;
+  }
+</style>
+  <body>
+    <div id="main">
+      <!--No need to add sidebar here, directly display search results-->
+
+      <!-- show headline, description and image -->
+
+
+
+
+    </div>
+  </body>
+
+</html>
+<script type="module">
+import {storeSearchterm} from "/scripts/search.js"
+var term=(localStorage.getItem("search_term"))
+storeSearchterm(term);
+var apikey="60fba0315a8df932b567f7ae989fd6be";
+import { apiCall, appendArticles } from"/harsh1/scripts/main.js";
+let articles= await apiCall(`https://gnews.io/api/v4/
+search?q=${term}&token=${apikey}&lang=en`);
+console.log(articles)
+var main=document.getElementById("main")
+appendArticles(articles,main);
+  </script>

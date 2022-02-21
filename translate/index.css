@@ -1,0 +1,28 @@
+div{
+    height:330px;}
+#container{
+display: flex;
+height:600px;
+}
+#input-section{
+
+height:400px;
+flex: 1; margin: 5%;
+}
+#input-text{
+width:98%;height:80%;
+background-color:#1b1b1b; 
+color:white;
+
+
+}
+
+#output-section{
+
+border: 1px solid white;
+flex: 1; margin: 7%; 
+}
+body{
+color: white; 
+background-color: #1b1b1b;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+<link rel="stylesheet" href="/translate/index.css">
+
+  <body>
+    <div id="container">
+      <div id="input-section">
+          
+          
+          <button onclick="translateText()" id="translate-btn">Translate</button>             
+       
+   <select name="languages"
+   id="ilan" onclick="languages1()">
+ <option value="en">English</option>
+ <option value="hi">Hindi</option>
+ <option value="ab">Arabic</option>
+ <option value="zh">Chinese</option>
+ <option value="es">Spanish</option>
+ <option value="de">German</option>
+ 
+ </select>  
+<textarea name="" id="input-text"></textarea>
+</div>
+      <div id="output-section">
+        
+   <select name="languages" placeholder="English"
+   id="olan"  onclick="languages1()">
+   <option value="en">English</option>
+   <option value="hi">Hindi</option>
+   <option value="ab">Arabic</option>
+   <option value="zh">Chinese</option>
+   <option value="es">Spanish</option>
+   <option value="de">German</option>
+ </select>
+ <br>
+        <output id="translated-text">
+          <!--Show translated text here-->
+        </output>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  var olan="en",ilan="en";
+  function languages1(){
+    ilan=document.getElementById("ilan").value
+    olan=document.getElementById("olan").value
+    translateText() 
+    console.log(olan,ilan)
+  }
+async function translateText() {
+    try{
+    let input = document.getElementById("input-text").value;
+
+let res= await fetch("https://libretranslate.de/translate",{
+method:"POST",
+body: JSON.stringify({
+    q:input,
+    source:ilan,
+    target:olan,format:"text"
+}),
+
+headers: {"Content-Type": "application/json"},
+});
+
+let data = await res.json();
+let data1= data.translatedText
+console.log(data1);
+
+document.getElementById("translated-text").innerText=data1
+
+
+}
+catch(err){
+    console.log("error1")
+}
+
+}
+
+
+</script>
