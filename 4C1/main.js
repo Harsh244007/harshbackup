@@ -6,17 +6,23 @@ const app = express();
 app.use=logger;
 
 app.get("/books",function (req, res) {
-    res.send({route:"/books"})
+    res.send({route:req.path})
     console.log({route:"/books"})
 });
 
-var permission=false;
+
 var route=route;
 
-app.get("/:name",checkPermission,function (req, res) {
-    res.send({ route: "/"+req.params.name, permission: permission})
-    console.log({ route: "/"+req.params.name, permission: permission})
+app.get("/libraries",checkPermission("librarian"),function (req, res) {
+    res.send({route:req.path,permission:req.permission})
+    console.log({route:"/libraries"})
 });
+
+app.get("/authors",checkPermission("authors"),function (req, res) {
+    res.send({route:req.path,permission:req.permission})
+    console.log({route:"/libraries"})
+});
+
 
 
 function logger(req, res,next) {
@@ -24,14 +30,17 @@ console.log(req.params.name)
     next();
 }
 
-function checkPermission(req,res, next){
-if(req.params.name=="libraries" || req.params.name=="authors"){
-    permission=true;
+function checkPermission(user)
+{
+    return function(req, res, next) {
+if(req.path=="/libraries" || req.path=="/authors"){
+    req.permission=true;
     next()
 }
 else {
-permission=false;
+req.permission=false;
     next()
+}
 }
 }
 
