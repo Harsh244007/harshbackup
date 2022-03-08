@@ -1,0 +1,101 @@
+>db
+
+> use assignment
+switched to db assignment
+> db
+assignment
+> db.getCollectionNames()
+[ "users" ]
+> db.users.insert({ "first_name":"harsh", "last_name":"patel", "email":"h@gmail.com", "gender":"male", "ip_address":"123.123.123", "age":"20" })
+WriteResult({ "nInserted" : 1 })
+> db.users.find()
+{ "_id" : ObjectId("622755dd6f3de24cb7239146"), "first_name" : "harsh", "last_name" : "patel", "email" : "h@gmail.com", "gender" : "male", "ip_address" : "123.123.123", "age" : "20" }
+> db.users.find().pretty()
+{
+        "_id" : ObjectId("622755dd6f3de24cb7239146"),
+        "first_name" : "harsh",
+        "last_name" : "patel",
+        "email" : "h@gmail.com",
+        "gender" : "male",
+        "ip_address" : "123.123.123",
+        "age" : "20"
+}
+> db.users.insert([     { "first_name": "harsh",       "last_name": "patel",       "email": "h@gmail.com",       "gender": "male",       "ip_address": "123.123.123",       "age": "20"     },     {       "first_name": "harsh",       "last_name": "patel",       "email": "h@gmail.com",       "gender": "male",       "ip_address": "123.123.123",       "age": "20"     },     {       "first_name": "harsh",       "last_name": "patel",       "email": "h@gmail.com",       "gender": "male",       "ip_address": "123.123.123",       "age": "20"     },     {       "first_name": "harsh",       "last_name": "patel",       "email": "h@gmail.com",       "gender": "male",       "ip_address": "123.123.123",       "age": "20"     },     {       "first_name": "harsh",       "last_name": "patel",       "email": "h@gmail.com",       "gender": "male",       "ip_address": "123.123.123",       "age": "20"     },     {       "first_name": "harsh",       "last_name": "patel",       "email": "h@gmail.com",       "gender": "male",       "ip_address": "123.123.123",       "age": "20"     },     {       "first_name": "harsh",       "last_name": "patel",       "email": "h@gmail.com",       "gender": "male",       "ip_address": "123.123.123",       "age": "20"     },     {       "first_name": "harsh",       "last_name": "patel",       "email": "h@gmail.com",       "gender": "male",       "ip_address": "123.123.123",       "age": "20"     },     {       "first_name": "harsh",       "last_name": "patel",       "email": "h@gmail.com",       "gender": "male",       "ip_address": "123.123.123",       "age": "20"     }   ] )
+BulkWriteResult({
+        "writeErrors" : [ ],
+        "writeConcernErrors" : [ ],
+        "nInserted" : 9,
+        "nUpserted" : 0,
+        "nMatched" : 0,
+        "nModified" : 0,
+        "nRemoved" : 0,
+        "upserted" : [ ]
+})
+> db.users.showcollection
+assignment.users.showcollection
+> db.users.find()
+{ "_id" : ObjectId("622755dd6f3de24cb7239146"), "first_name" : "harsh", "last_name" : "patel", "email" : "h@gmail.com", "gender" : "male", "ip_address" : "123.123.123", "age" : "20" }
+{ "_id" : ObjectId("622756da6f3de24cb7239147"), "first_name" : "harsh", "last_name" : "patel", "email" : "h@gmail.com", "gender" : "male", "ip_address" : "123.123.123", "age" : "20" }
+{ "_id" : ObjectId("622756da6f3de24cb7239148"), "first_name" : "harsh", "last_name" : "patel", "email" : "h@gmail.com", "gender" : "male", "ip_address" : "123.123.123", "age" : "20" }
+{ "_id" : ObjectId("622756da6f3de24cb7239149"), "first_name" : "harsh", "last_name" : "patel", "email" : "h@gmail.com", "gender" : "male", "ip_address" : "123.123.123", "age" : "20" }
+{ "_id" : ObjectId("622756da6f3de24cb723914a"), "first_name" : "harsh", "last_name" : "patel", "email" : "h@gmail.com", "gender" : "male", "ip_address" : "123.123.123", "age" : "20" }
+{ "_id" : ObjectId("622756da6f3de24cb723914b"), "first_name" : "harsh", "last_name" : "patel", "email" : "h@gmail.com", "gender" : "male", "ip_address" : "123.123.123", "age" : "20" }
+{ "_id" : ObjectId("622756da6f3de24cb723914c"), "first_name" : "harsh", "last_name" : "patel", "email" : "h@gmail.com", "gender" : "male", "ip_address" : "123.123.123", "age" : "20" }
+{ "_id" : ObjectId("622756da6f3de24cb723914d"), "first_name" : "harsh", "last_name" : "patel", "email" : "h@gmail.com", "gender" : "male", "ip_address" : "123.123.123", "age" : "20" }
+{ "_id" : ObjectId("622756da6f3de24cb723914e"), "first_name" : "harsh", "last_name" : "patel", "email" : "h@gmail.com", "gender" : "male", "ip_address" : "123.123.123", "age" : "20" }
+{ "_id" : ObjectId("622756da6f3de24cb723914f"), "first_name" : "harsh", "last_name" : "patel", "email" : "h@gmail.com", "gender" : "male", "ip_address" : "123.123.123", "age" : "20" }
+> db.users.findOne()
+{
+        "_id" : ObjectId("622755dd6f3de24cb7239146"),
+        "first_name" : "harsh",
+        "last_name" : "patel",
+        "email" : "h@gmail.com",
+        "gender" : "male",
+        "ip_address" : "123.123.123",
+        "age" : "20"
+}
+
+> db.users.update({first_name:"harsh7"},{$set:{city:"abd"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+
+> db.users.update({first_name:"harsh7"},{$unset:{city:"abd"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 0 })
+
+
+> db.users.update({first_name:"harsh6"},{$set:{city:"abd"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+
+> db.users.update({first_name:"harsh6"},{$unset:{city:"abd"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 0 })
+
+
+> db.users.update({first_name:"harsh5"},{$set:{city:"abd"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+
+> db.users.update({first_name:"harsh5"},{$unset:{city:"abd"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 0 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
