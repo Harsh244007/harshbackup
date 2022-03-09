@@ -1,0 +1,343 @@
+> use movie
+switched to db movie
+
+> db.mock.find().pretty()
+
+> db.mock.find({movie_name:{$eq:"Southbounders"}},{_id:0,image:0,image2:0}).pretty()
+{
+        "id" : 20,
+        "movie_name" : "Southbounders",
+        "movie_genre" : "Drama",
+        "production_year" : 1997,
+        "budget" : 19210
+}
+> db.mock.find({movie_name:{$ne:"Southbounders"}},{_id:0,image:0,image2:0}).limit(5).pretty()
+{
+        "id" : 1,
+        "movie_name" : "Warriors of Virtue",
+        "movie_genre" : "Action|Adventure|Children|Fantasy",
+        "production_year" : 1999,
+        "budget" : 13195
+}
+{
+        "id" : 2,
+        "movie_name" : "Turn of Faith",
+        "movie_genre" : "Crime|Drama",
+        "production_year" : 1993,
+        "budget" : 9017
+}
+{
+        "id" : 3,
+        "movie_name" : "Einstein and Eddington",
+        "movie_genre" : "Drama",
+        "production_year" : 2000,
+        "budget" : 9601
+}
+{
+        "id" : 4,
+        "movie_name" : "Joke, The (Zert)",
+        "movie_genre" : "Drama",
+        "production_year" : 2007,
+        "budget" : 17404
+}
+{
+        "id" : 5,
+        "movie_name" : "Piano in a Factory, The (Gang de qin)",
+        "movie_genre" : "Comedy|Drama|Musical",
+        "production_year" : 2000,
+        "budget" : 9002
+}
+> db.mock.find({budget:{$gte:17000}},{_id:0,image:0,image2:0}).limit(5).pretty()
+{
+        "id" : 4,
+        "movie_name" : "Joke, The (Zert)",
+        "movie_genre" : "Drama",
+        "production_year" : 2007,
+        "budget" : 17404
+}
+{
+        "id" : 15,
+        "movie_name" : "Tortured, The",
+        "movie_genre" : "Horror|Thriller",
+        "production_year" : 1993,
+        "budget" : 19324
+}
+{
+        "id" : 16,
+        "movie_name" : "Carbine Williams",
+        "movie_genre" : "Crime|Drama",
+        "production_year" : 2020,
+        "budget" : 19227
+}
+{
+        "id" : 20,
+        "movie_name" : "Southbounders",
+        "movie_genre" : "Drama",
+        "production_year" : 1997,
+        "budget" : 19210
+}
+{
+        "id" : 23,
+        "movie_name" : "Jack Frost",
+        "movie_genre" : "Children|Comedy|Drama",
+        "production_year" : 2004,
+        "budget" : 17828
+}
+> db.mock.find({budget:{$lte:17000}},{_id:0,image:0,image2:0}).limit(5).pretty()
+{
+        "id" : 1,
+        "movie_name" : "Warriors of Virtue",
+        "movie_genre" : "Action|Adventure|Children|Fantasy",
+        "production_year" : 1999,
+        "budget" : 13195
+}
+{
+        "id" : 2,
+        "movie_name" : "Turn of Faith",
+        "movie_genre" : "Crime|Drama",
+        "production_year" : 1993,
+        "budget" : 9017
+}
+{
+        "id" : 3,
+        "movie_name" : "Einstein and Eddington",
+        "movie_genre" : "Drama",
+        "production_year" : 2000,
+        "budget" : 9601
+}
+{
+        "id" : 5,
+        "movie_name" : "Piano in a Factory, The (Gang de qin)",
+        "movie_genre" : "Comedy|Drama|Musical",
+        "production_year" : 2000,
+        "budget" : 9002
+}
+{
+        "id" : 6,
+        "movie_name" : "Hardboiled Egg (Ovosodo)",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 1996,
+        "budget" : 10070
+}
+
+> db.mock.find({$and:[{budget:{$gt:10000}},{production_year:{$gt:2000}}]},{_id:0,image:0,image2:0}).limit(5).pretty()
+{
+        "id" : 4,
+        "movie_name" : "Joke, The (Zert)",
+        "movie_genre" : "Drama",
+        "production_year" : 2007,
+        "budget" : 17404
+}
+{
+        "id" : 7,
+        "movie_name" : "Dream Man",
+        "movie_genre" : "Thriller",
+        "production_year" : 2019,
+        "budget" : 15836
+}
+{
+        "id" : 10,
+        "movie_name" : "Hysteria",
+        "movie_genre" : "Comedy|Romance",
+        "production_year" : 2017,
+        "budget" : 13705
+}
+{
+        "id" : 12,
+        "movie_name" : "Cartoonist: Jeff Smith, BONE and the Changing Face of Comics, The",
+        "movie_genre" : "Documentary",
+        "production_year" : 2011,
+        "budget" : 16212
+}
+{
+        "id" : 13,
+        "movie_name" : "Prick Up Your Ears",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 2004,
+        "budget" : 11289
+}
+> db.mock.find({$or:[{budget:{$gt:10000}},{production_year:{$gt:2000}}]},{_id:0,image:0,image2:0}).limit(5).pretty()
+{
+        "id" : 1,
+        "movie_name" : "Warriors of Virtue",
+        "movie_genre" : "Action|Adventure|Children|Fantasy",
+        "production_year" : 1999,
+        "budget" : 13195
+}
+{
+        "id" : 4,
+        "movie_name" : "Joke, The (Zert)",
+        "movie_genre" : "Drama",
+        "production_year" : 2007,
+        "budget" : 17404
+}
+{
+        "id" : 6,
+        "movie_name" : "Hardboiled Egg (Ovosodo)",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 1996,
+        "budget" : 10070
+}
+{
+        "id" : 7,
+        "movie_name" : "Dream Man",
+        "movie_genre" : "Thriller",
+        "production_year" : 2019,
+        "budget" : 15836
+}
+{
+        "id" : 8,
+        "movie_name" : "Madonna's Pig",
+        "movie_genre" : "Fantasy|Romance|Sci-Fi",
+        "production_year" : 1991,
+        "budget" : 13156
+}
+> db.mock.find({$nor:[{budget:{$gt:10000}},{production_year:{$gt:2000}}]},{_id:0,image:0,image2:0}).limit(5).pretty()
+{
+        "id" : 2,
+        "movie_name" : "Turn of Faith",
+        "movie_genre" : "Crime|Drama",
+        "production_year" : 1993,
+        "budget" : 9017
+}
+{
+        "id" : 3,
+        "movie_name" : "Einstein and Eddington",
+        "movie_genre" : "Drama",
+        "production_year" : 2000,
+        "budget" : 9601
+}
+{
+        "id" : 5,
+        "movie_name" : "Piano in a Factory, The (Gang de qin)",
+        "movie_genre" : "Comedy|Drama|Musical",
+        "production_year" : 2000,
+        "budget" : 9002
+}
+{
+        "id" : 18,
+        "movie_name" : "Jurassic Park III",
+        "movie_genre" : "Action|Adventure|Sci-Fi|Thriller",
+        "production_year" : 1997,
+        "budget" : 9718
+}
+{
+        "id" : 55,
+        "movie_name" : "Garbage Warrior",
+        "movie_genre" : "Documentary",
+        "production_year" : 1994,
+        "budget" : 9256
+}
+> db.mock.find({$and:[{production_year:{$gte:2000}},{production_year:{$lte:2010}}]},{_id:0,image:0,image2:0}).limit(5).pretty()
+{
+        "id" : 3,
+        "movie_name" : "Einstein and Eddington",
+        "movie_genre" : "Drama",
+        "production_year" : 2000,
+        "budget" : 9601
+}
+{
+        "id" : 4,
+        "movie_name" : "Joke, The (Zert)",
+        "movie_genre" : "Drama",
+        "production_year" : 2007,
+        "budget" : 17404
+}
+{
+        "id" : 5,
+        "movie_name" : "Piano in a Factory, The (Gang de qin)",
+        "movie_genre" : "Comedy|Drama|Musical",
+        "production_year" : 2000,
+        "budget" : 9002
+}
+{
+        "id" : 13,
+        "movie_name" : "Prick Up Your Ears",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 2004,
+        "budget" : 11289
+}
+{
+        "id" : 17,
+        "movie_name" : "Classic, The (Klassikko)",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 2005,
+        "budget" : 13390
+}
+
+> db.mock.find({},{_id:0,image:0,image2:0}).sort({production_year:-1,movie_name:1}).limit(5).pretty()
+{
+        "id" : 624,
+        "movie_name" : "7 Men from Now (Seven Men from Now)",
+        "movie_genre" : "Western",
+        "production_year" : 2020,
+        "budget" : 9273
+}
+{
+        "id" : 180,
+        "movie_name" : "Agata and the Storm (Agata e la tempesta)",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2020,
+        "budget" : 13327
+}
+{
+        "id" : 842,
+        "movie_name" : "Ballad of Narayama, The (Narayama Bushiko)",
+        "movie_genre" : "Drama",
+        "production_year" : 2020,
+        "budget" : 16449
+}
+{
+        "id" : 692,
+        "movie_name" : "Beneath the Valley of the Ultra-Vixens",
+        "movie_genre" : "Comedy",
+        "production_year" : 2020,
+        "budget" : 16808
+}
+{
+        "id" : 865,
+        "movie_name" : "Brother's War",
+        "movie_genre" : "War",
+        "production_year" : 2020,
+        "budget" : 10393
+}
+>
+
+> db.mock.find({},{_id:0,image:0,image2:0}).sort({production_year:-1,movie_name:1}).limit(5).skip(10).pretty()
+{
+        "id" : 481,
+        "movie_name" : "Everybody Wins",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        "production_year" : 2020,
+        "budget" : 17309
+}
+{
+        "id" : 489,
+        "movie_name" : "Family Guy Presents: Blue Harvest",
+        "movie_genre" : "Animation|Comedy",
+        "production_year" : 2020,
+        "budget" : 10178
+}
+{
+        "id" : 651,
+        "movie_name" : "Five Minarets in New York (Act of Vengeance) (Terrorist, The)",
+        "movie_genre" : "Drama",
+        "production_year" : 2020,
+        "budget" : 11982
+}
+{
+        "id" : 376,
+        "movie_name" : "Fury",
+        "movie_genre" : "Drama|Film-Noir",
+        "production_year" : 2020,
+        "budget" : 19478
+}
+{
+        "id" : 959,
+        "movie_name" : "God's Country",
+        "movie_genre" : "Documentary",
+        "production_year" : 2020,
+        "budget" : 16093
+}
+>
+
