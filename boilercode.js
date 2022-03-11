@@ -1,8 +1,10 @@
 function runProgram(input){
 var a,b,c,d,i,j,k,l;
-var m=0,n=1,count=0;
+var m=1,n=2,count=0;
     input=input.trim().split("\n");
-    i1=input.trim().split(" ").map(Number)
+    i1=input[0].trim().split(" ").map(Number)
+    i2=input[1].trim().split(" ").map(Number)
+  
   
   
   
