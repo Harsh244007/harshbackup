@@ -10,7 +10,6 @@ app.get("/books",function (req, res) {
     console.log({route:"/books"})
 });
 
-
 var route=route;
 
 app.get("/libraries",checkPermission("librarian"),function (req, res) {
