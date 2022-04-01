@@ -159,9 +159,11 @@ transform: translateX(26px);
 </body>
 
 <script>
+        posth()
     var count=2;
     function dark()
     { count++;
+    
     if(count%2==0)
     {document.getElementById("errorclick1").style.color = "white";
         document.getElementById("errorbody").style.color = "white";
@@ -171,6 +173,15 @@ transform: translateX(26px);
         document.getElementById("errorbody").style.color = "black";
         document.getElementById("errorbody").style.backgroundColor = "white";         
     }
+}
+ function  posth(){
+    let url="http://3.15.96.146/likes"
+    let xhr = new XMLHttpRequest();
+xhr.open("POST", url);
+xhr.setRequestHeader("Accept", "application/json");
+xhr.setRequestHeader("Content-Type", "application/json");
+let likes=`{}`;
+xhr.send(likes)
 }
 </script>
 </html>
