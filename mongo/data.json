@@ -1,225 +1,1813 @@
+{
+  "bargain": [
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    }
+  ],
 
+  "beauty": [
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    }
+  ],
+
+  "brand": [
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    }
+  ],
+
+  "gifts": [
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hcf/h0e/26729017638942/CME449A6021_NoColour_alt2.jpg_1088Wx1632H",
+      "name": "Jewelz",
+      "price": "289",
+      "strikeprice": "1159",
+      "description": "Stylish Party Wear Combo Of Earrings",
+      "off": "75"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hb5/hff/16928213270558/206501897_UNMAPPED.jpg_1088Wx1632H",
+      "name": "Ayesha",
+      "price": "269",
+      "strikeprice": "898",
+      "description": "Girls Lil Star Unicorn Print Pastel Pink Zipper Bag",
+      "off": "70"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h68/h0c/26871443521566/A14019HSVAAACZ_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Mia",
+      "price": "1799",
+      "strikeprice": "1999",
+      "description": "Womens Dazzling 92.5 Sterling Silver Hoop Earrings",
+      "off": "10"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h41/hf4/26775442030622/BZ8904343906826_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Belleziya",
+      "price": "199",
+      "strikeprice": "399",
+      "description": "Gold Finish Blue Pearl Drop Earrings",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h02/h39/26729486155806/CME299A6024_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Jewelz",
+      "price": "224",
+      "strikeprice": "899",
+      "description": "Gorgeous Earrings Set Combo",
+      "off": "75"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h40/haf/26476040060958/AL00314SS0000_NoColour.jpg_1088Wx1632H",
+      "name": "Shaya by Caratlane",
+      "price": "4050",
+      "strikeprice": "5400",
+      "description": "Rosalind Western Necklace In 925 Silver",
+      "off": "25"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h41/hf4/26775442030622/BZ8904343906826_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Belleziya",
+      "price": "199",
+      "strikeprice": "399",
+      "description": "Gold Finish Blue Pearl Drop Earrings",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hf9/hf1/27257672761374/AT00290SS0000_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Shaya by Caratlane",
+      "price": "2200",
+      "strikeprice": "",
+      "description": "Pearl In The Sea Shell Bracelet in 925 Silver",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h7e/hb9/27257869238302/AE00804SS0000_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Shaya by Caratlane",
+      "price": "1200",
+      "strikeprice": "",
+      "description": "Magic In The Milky Way Earrings in Gold Plated 925 Silver",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/he3/h62/26769243045918/AL00375SS0000_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Shaya by Caratlane",
+      "price": "1260",
+      "strikeprice": "1400",
+      "description": "Kusha Black Beads Necklace in 925 Silver",
+      "off": "10"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/he3/h62/26769243045918/AL00375SS0000_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Ayesha",
+      "price": "418",
+      "strikeprice": "598",
+      "description": "Mens Set Of 3 Rugged Black Leather Adjustable Bracelets With Beads And A Carved Metal Anchor",
+      "off": "30"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/he0/h92/26729425731614/HCE599A6020_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Jewelz",
+      "price": "349",
+      "strikeprice": "1399",
+      "description": "Fancy Design Silver Plated Earrings",
+      "off": "75"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h83/h2a/26729314582558/CBR399A5936_NoColour.jpg_1088Wx1632H",
+      "name": "Jewelz",
+      "price": "262",
+      "strikeprice": "1049",
+      "description": "Charm Fancy Multi Festive Wear Bracelet",
+      "off": "75"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h4a/h62/16827943583774/US-ER-716_NoColour.jpg_1088Wx1632H",
+      "name": "Madame",
+      "price": "439",
+      "strikeprice": "799",
+      "description": "Pink Sequence Drop Earring",
+      "off": "45"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h78/ha5/26798954905630/AR00281SS0000_NoColour.jpg_1088Wx1632H",
+      "name": "Shaya by Caratlane",
+      "price": "997",
+      "strikeprice": "1050",
+      "description": "Lunar Sky Ring in Gold Plated 925 Silver",
+      "off": "5"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h55/h65/27258310197278/AL00407SS0000_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Shaya by Caratlane",
+      "price": "1500",
+      "strikeprice": "",
+      "description": "A Pearl Of Love (6mm) Necklace in 925 Silver",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/he9/hea/26746506412062/AE00647SS0000_NoColour.jpg_1088Wx1632H",
+      "name": "Shaya by Caratlane",
+      "price": "950",
+      "strikeprice": "1000",
+      "description": "Cool For The Summer Earrings In 925 Silver",
+      "off": "5"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h82/hb2/27047179288606/HCE399A6196_NoColour.jpg_1088Wx1632H",
+      "name": "Jewelz",
+      "price": "262",
+      "strikeprice": "1049",
+      "description": "Womens Royal Look Ethnic Earrings",
+      "off": "75"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h9f/h30/26811563999262/AE00663SS0000_NoColour.jpg_1088Wx1632H",
+      "name": "Shaya by Caratlane",
+      "price": "1305",
+      "strikeprice": "1450",
+      "description": "Hall Of Fame Earrings In 925 Silver",
+      "off": "10"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h18/h12/15971476602910/SW9009654976687_NoColour.jpg_1088Wx1632H",
+      "name": "Swarovski",
+      "price": "7090",
+      "strikeprice": "",
+      "description": "Symbolic Crystal Charm",
+      "off": ""
+    }
+  ],
+
+login and sign up => backend login find login add to cart => local storage => route in cart fetch cart js +_ add- => payment => payment
+login signup
+// get data from logind
+// fecth from signuop route
+// fetcch sign=>login
+
+  "homestop": [
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    },
+    {
+      "img": "",
+      "name": "",
+      "price": "",
+      "strikeprice": "",
+      "description": "",
+      "off": ""
+    }
+  ],
+
+  "kids": [ 
+    {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/h47/h03/17380199104542/A21GJB945C303YE_YELLOW.jpg_1088Wx1632H",    
+        "name":"Gini & Jony", 
+        "price":"299", 
+        "strikeprice":"499", 
+        "description":"Chest Printed Knits Plain Round Neck Boys T-Shirt", 
+        "off":"40",    
+        
+        "rightimg":"https://sslimages.shoppersstop.com/sys-master/images/h29/hdb/17378901753886/A21GJB945C303YE_YELLOW_alt2.jpg_2000Wx3000H",
+        "frontimg":"https://sslimages.shoppersstop.com/sys-master/images/h5a/hd4/17378901557278/A21GJB945C303YE_YELLOW_alt2.jpg_1088Wx1632H",
+        "halfimg":"https://sslimages.shoppersstop.com/sys-master/images/h29/hdb/17378901753886/A21GJB945C303YE_YELLOW_alt2.jpg_2000Wx3000H",
+        "backimg":"https://sslimages.shoppersstop.com/sys-master/images/h8e/hc3/17380109549598/A21GJB945C303YE_YELLOW_alt1.jpg_1088Wx1632H"
+        },
         {
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h85/h8f/26840589565982/AW21IPT041_TEAL.jpg_230Wx334H",
-    "name": "Insufe",
-    "price": "399",
-    "strikeprice": "799",
-    "description": "Printed Cotton Regular Fit Mens T-Shirt",
-    "off": "30",
-    "rightimg": "https://sslimages.s3-ap-southeast-1.amazonaws.com/sys-master/images/h3b/hea/26840795578398/AW21IPT041_TEAL_alt2.jpg_1088Wx1632H",
-    "frontimg": "https://sslimages.shoppersstop.com/sys-master/images/h5e/hd5/26840790433822/AW21IPT041_TEAL_alt3.jpg_1088Wx1632H",
-    "halfimg": "https://sslimages.shoppersstop.com/sys-master/images/h1e/hf6/26840588648478/AW21IPT041_TEAL_alt4.jpg_1088Wx1632H",
-    "backtimg": "https://sslimages.shoppersstop.com/sys-master/images/hd2/h2a/26840798658590/AW21IPT041_TEAL_alt1.jpg_1088Wx1632H"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/hb9/h0d/26971781824542/S22SFCSLB930357_BLACK.jpg_1088Wx1632H",
-    "name": "Louis Philippe Sports",
-    "price": "1297",
-    "strikeprice": "2199",
-    "description": "Solid Cotton Slim Fit Mens Casual Shirt",
-    "off": "41",
-    "rightimg": "https://sslimages.shoppersstop.com/sys-master/images/h0e/h50/26969936396318/S22SFCSLB930357_BLACK_alt2.jpg_1088Wx1632H",
-    "frontimg": "https://sslimages.s3-ap-southeast-1.amazonaws.com/sys-master/images/h93/hf9/26970356776990/S22SFCSLB930357_BLACK_alt3.jpg_1088Wx1632H",
-    "halfimg": "https://sslimages.shoppersstop.com/sys-master/images/h2b/ha9/26970180714526/S22SFCSLB930357_BLACK_alt4.jpg_1088Wx1632H",
-    "backimg": "https://sslimages.shoppersstop.com/sys-master/images/hf8/h0f/26970736984094/S22SFCSLB930357_BLACK_alt1.jpg_1088Wx1632H"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h23/h18/17556128825374/AW21DQCN003_TEAL.jpg_1088Wx1632H",
-    "name": "Infuse",
-    "price": "279",
-    "strikeprice": "699",
-    "description": "Printed Cotton Jersey Regular Fit Mens T-Shirt",
-    "off": "60",
-    "rightimg": "https://sslimages.shoppersstop.com/sys-master/images/h27/hc6/17556227358750/AW21DQCN003_TEAL_alt2.jpg_1088Wx1632H",
-    "frontimg": "https://sslimages.shoppersstop.com/sys-master/images/h2e/h5f/17556145045534/AW21DQCN003_TEAL_alt3.jpg_1088Wx1632H",
-    "halfimg": "https://sslimages.shoppersstop.com/sys-master/images/hf2/hc9/17556112703518/AW21DQCN003_TEAL_alt4.jpg_1088Wx1632H",
-    "backimg": "https://sslimages.shoppersstop.com/sys-master/images/h49/hc4/17556170244126/AW21DQCN003_TEAL_alt1.jpg_1088Wx1632H"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h30/h93/17122102444062/A21INFDLF07_STONE.jpg_230Wx334H",
-    "name": "Louis Philippe Jeans",
-    "price": "1767",
-    "strikeprice": "2999",
-    "description": "Slim Fit Mens Jeans",
-    "off": "41",
-    "rightimg": "https://sslimages.shoppersstop.com/B8AC9759D45547D9AEF177F0DE13B7C8/img/B069331588DA42CAAB5752915318AAF5/205440361_8394_alt2_B069331588DA42CAAB5752915318AAF5.jpg",
-    "frontimg": "https://sslimages.shoppersstop.com/B8AC9759D45547D9AEF177F0DE13B7C8/img/44622CAAA3FE45578D9018C1A68EB693/205440361_8394_alt3_44622CAAA3FE45578D9018C1A68EB693.jpg",
-    "halfimg": "https://sslimages.shoppersstop.com/B8AC9759D45547D9AEF177F0DE13B7C8/img/9D96552F34524E5E8C12FD26387B15AC/205440361_8394_alt4_9D96552F34524E5E8C12FD26387B15AC.jpg",
-    "backimg": "https://sslimages.shoppersstop.com/B8AC9759D45547D9AEF177F0DE13B7C8/img/AAC3DC74CAD449AF940732060EB91E19/205440361_8394_alt1_AAC3DC74CAD449AF940732060EB91E19.jpg"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h85/h8f/26840589565982/AW21IPT041_TEAL.jpg_230Wx334H",
-    "name": "Insufe",
-    "price": "399",
-    "strikeprice": "799",
-    "description": "Printed Cotton Regular Fit Mens T-Shirt",
-    "off": "30",
-    "rightimg": "https://sslimages.s3-ap-southeast-1.amazonaws.com/sys-master/images/h3b/hea/26840795578398/AW21IPT041_TEAL_alt2.jpg_1088Wx1632H",
-    "frontimg": "https://sslimages.shoppersstop.com/sys-master/images/h5e/hd5/26840790433822/AW21IPT041_TEAL_alt3.jpg_1088Wx1632H",
-    "halfimg": "https://sslimages.shoppersstop.com/sys-master/images/h1e/hf6/26840588648478/AW21IPT041_TEAL_alt4.jpg_1088Wx1632H",
-    "backimg": "https://sslimages.shoppersstop.com/sys-master/images/hd2/h2a/26840798658590/AW21IPT041_TEAL_alt1.jpg_1088Wx1632H"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/B8AC9759D45547D9AEF177F0DE13B7C8/img/C79113F79CAC449DBCDED30436E4A176/205440361_8394_C79113F79CAC449DBCDED30436E4A176.jpg",
-    "name": "Infuse",
-    "price": "749",
-    "strikeprice": "1499",
-    "description": "Washed Cotton Lycra Slim Fit Mens Denim",
-    "off": "50",
-    "rightimg": "",
-    "frontimg": "",
-    "halfimg": "",
-    "backimg": ""
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/ha5/h51/26911145066526/A2130A1AMK186_BLUE.jpg_230Wx334H",
-    "name": "Tommy Hilfiger",
-    "price": "2299",
-    "strikeprice": "4599",
-    "description": "Solid Cotton Slim Fit Mens T-Shirt",
-    "off": "50"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/hc0/h70/26729865642014/S22STSTRPL106_MINT.jpg_230Wx334H",
-    "name": "Stop",
-    "price": "699",
-    "strikeprice": "999",
-    "description": "Stripes Cotton Blend Regular Fit Mens T-Shirt",
-    "off": "30"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/hce/he6/26954214703134/FS1CKNB2974_BLACK.jpg_230Wx334H",
-    "name": "Life",
-    "price": "1999",
-    "strikeprice": "",
-    "description": "Cotton Elastane Mid Rise Crop Fit Mens Jeans",
-    "off": ""
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h5c/h8a/26912193085470/IN-FU07_DARK_INDIGO.jpg_230Wx334H",
-    "name": "Louis Philippe Sports",
-    "price": "1297",
-    "strikeprice": "2199",
-    "description": "Solid Cotton Slim Fit Mens Casual Shirt",
-    "off": "41"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h0c/h6b/17376674250782/A21FC528HUWHITE_WHITE.jpg_230Wx334H",
-    "name": "Infuse",
-    "price": "279",
-    "strikeprice": "699",
-    "description": "Printed Cotton Jersey Regular Fit Mens T-Shirt",
-    "off": "60"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h5e/hf2/26880227737630/S22VHSF1M100275_GREY.jpg_230Wx334H",
-    "name": "Louis Philippe Jeans",
-    "price": "1767",
-    "strikeprice": "2999",
-    "description": "Slim Fit Mens Jeans",
-    "off": "41"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/hb6/h58/16960747896862/S21FC510AH-02-W_YELLOW.jpg_230Wx334H",
-    "name": "Van Heusen",
-    "price": "399",
-    "strikeprice": "799",
-    "description": "Printed Cotton Regular Fit Mens T-Shirt",
-    "off": "30"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h30/h93/17122102444062/A21INFDLF07_STONE.jpg_230Wx334H",
-    "name": "Infuse",
-    "price": "749",
-    "strikeprice": "1499",
-    "description": "Washed Cotton Lycra Slim Fit Mens Denim",
-    "off": "50"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h8a/he8/17318904594462/AW21TEE013_BLUE.jpg_230Wx334H",
-    "name": "Tommy Hilfiger",
-    "price": "2299",
-    "strikeprice": "4599",
-    "description": "Solid Cotton Slim Fit Mens T-Shirt",
-    "off": "50"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/hff/hdd/17556138557470/AW21DQCN006_LILAC.jpg_230Wx334H",
-    "name": "Stop",
-    "price": "699",
-    "strikeprice": "999",
-    "description": "Stripes Cotton Blend Regular Fit Mens T-Shirt",
-    "off": "30"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h7f/h44/17122208874526/A21INFDLF06_STONE.jpg_230Wx334H",
-    "name": "Life",
-    "price": "1999",
-    "strikeprice": "",
-    "description": "Cotton Elastane Mid Rise Crop Fit Mens Jeans",
-    "off": ""
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h85/he7/26910998986782/A2130TSA1ATK325_WHITE.jpg_230Wx334H",
-    "name": "Louis Philippe Sports",
-    "price": "1297",
-    "strikeprice": "2199",
-    "description": "Solid Cotton Slim Fit Mens Casual Shirt",
-    "off": "41"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/ha4/he3/17291967725598/A21INFDLF04_TINT.jpg_230Wx334H",
-    "name": "Infuse",
-    "price": "279",
-    "strikeprice": "699",
-    "description": "Printed Cotton Jersey Regular Fit Mens T-Shirt",
-    "off": "60"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/hc7/hba/16518429736990/S21EVANDERLSILI_LIGHT_BLUE.jpg_230Wx334H",
-    "name": "Pepe",
-    "price": "1767",
-    "strikeprice": "2999",
-    "description": "Slim Fit Mens Jeans",
-    "off": "41"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h2f/h7f/26954260709406/205336612_MULTI.jpg_230Wx334H",
-    "name": "Insufe",
-    "price": "399",
-    "strikeprice": "799",
-    "description": "Printed Cotton Regular Fit Mens T-Shirt",
-    "off": "30"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/hcc/h6a/26554323763230/A21IGH047_LIME_GREEN.jpg_230Wx334H",
-    "name": "Infuse",
-    "price": "749",
-    "strikeprice": "1499",
-    "description": "Washed Cotton Lycra Slim Fit Mens Denim",
-    "off": "50"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/ha5/h51/26911145066526/A2130A1AMK186_BLUE.jpg_230Wx334H",
-    "name": "Tommy Hilfiger",
-    "price": "2299",
-    "strikeprice": "4599",
-    "description": "Solid Cotton Slim Fit Mens T-Shirt",
-    "off": "50"
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/h4e/h12/17179695317022/A21BZMSLF344704_BLACK.jpg_230Wx334H",
-    "name": "Allensolly",
-    "price": "2298",
-    "strikeprice": "",
-    "description": "Allen solly Jacket",
-    "off": ""
-},
-{
-    "img": "https://sslimages.shoppersstop.com/sys-master/images/he0/h50/26560831488030/A211STJKT1104OL_OLIVE.jpg_230Wx334H",
-    "name": "Life",
-    "price": "1999",
-    "strikeprice": "",
-    "description": "Cotton Elastane Mid Rise Crop Fit Mens Jeans",
-    "off": ""
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/hb1/h01/16916310786078/S21TSB399031GR_GREEN.jpg_1088Wx1632H",    
+        "name":"Tales & Stories", 
+        "price":"399", 
+        "strikeprice":"799", 
+        "description":"Solid Cotton Round Neck Boys T-Shirt", 
+        "off":"50",    
+        
+        "rightimg":"https://sslimages.shoppersstop.com/sys-master/images/hc8/h3d/16916861550622/S21TSB399031GR_GREEN_alt2.jpg_1088Wx1632H",
+        "frontimg":"https://sslimages.shoppersstop.com/sys-master/images/h71/hee/16916252819486/S21TSB399031GR_GREEN_alt1.jpg_1088Wx1632H",
+        "halfimg":"https://sslimages.shoppersstop.com/sys-master/images/hc8/h3d/16916861550622/S21TSB399031GR_GREEN_alt2.jpg_1088Wx1632H",
+        "backimg":"https://sslimages.shoppersstop.com/sys-master/images/h71/hee/16916252819486/S21TSB399031GR_GREEN_alt1.jpg_1088Wx1632H"
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/h10/hc4/26832362373150/S21710BSHIRT08_MID_BLUE.jpg_1088Wx1632H",    
+        "name":"Stop", 
+        "price":"349", 
+        "strikeprice":"699", 
+        "description":"Solid Cotton Collar Neck Boys Shirt",
+        "off":"50", 
+        
+        "rightimg":"https://sslimages.shoppersstop.com/sys-master/images/hf2/hc6/26832354181150/S21710BSHIRT08_MID_BLUE_alt1.jpg_1088Wx1632H",
+        "frontimg":"https://sslimages.shoppersstop.com/sys-master/images/h2b/hc9/26832493183006/S21710BSHIRT08_MID_BLUE_alt4.jpg_1088Wx1632H",
+        "halfimg":"https://sslimages.shoppersstop.com/sys-master/images/h31/h87/26832357654558/S21710BSHIRT08_MID_BLUE_alt3.jpg_1088Wx1632H",
+        "backimg":"https://sslimages.shoppersstop.com/sys-master/images/h70/h4f/26832342941726/S21710BSHIRT08_MID_BLUE_alt2.jpg_1088Wx1632H"
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/hed/hcb/26960197746718/S22711GDRESS29_PEACH.jpg_1088Wx1632H",    
+        "name":"Life", 
+        "price":"799", 
+        "strikeprice":"", 
+        "description":"Swiss Dobby Polyester Round Neck Girls Casual Dress", 
+        "off":"",    
+        
+        "rightimg":"https://sslimages.shoppersstop.com/sys-master/images/ha2/hfa/26960163012638/S22711GDRESS29_PEACH_alt2.jpg_1088Wx1632H",
+        "frontimg":"https://sslimages.shoppersstop.com/sys-master/images/h5d/h1f/26960160784414/S22711GDRESS29_PEACH_alt3.jpg_1088Wx1632H",
+        "halfimg":"https://sslimages.shoppersstop.com/sys-master/images/h43/hec/26960202203166/S22711GDRESS29_PEACH_alt4.jpg_1088Wx1632H",
+        "backimg":"https://sslimages.shoppersstop.com/sys-master/images/h12/h0b/26960199843870/S22711GDRESS29_PEACH_alt1.jpg_1088Wx1632H"
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/hee/h34/26772583579678/A21521053145BL_BLACK.jpg_1088Wx1632H",    
+        "name":"Monte Carlo", 
+        "price":"640", 
+        "strikeprice":"1280", 
+        "description":"Printed Cotton Blend Round Neck Boys Sweatshirt", 
+        "off":"50",    
+        
+        "rightimg":"",
+        "frontimg":"",
+        "halfimg":"",
+        "backimg":""
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/h73/hea/16613210587166/S21RUFFK12312NA_NAVY.jpg_1088Wx1632H",    
+        "name":"Ruff", 
+        "price":"399", 
+        "strikeprice":"799", 
+        "description":"Graphic Cotton Round Neck Boys T-Shirt", 
+        "off":"50"
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/h5e/h08/26775274389534/A21521053193GR_GREY.jpg_1088Wx1632H",    
+        "name":"Monte Carlo", 
+        "price":"712", 
+        "strikeprice":"1425", 
+        "description":"Printed Cotton Blend Collar Neck Boys Sweatshirt", 
+        "off":"50" 
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/ha6/h26/26771642941470/A21521053102RE_RED.jpg_1088Wx1632H",    
+        "name":"Monte Carlo", 
+        "price":"465", 
+        "strikeprice":"930", 
+        "description":"Printed Cotton Blend Round Neck Boys Sweatshirt", 
+        "off":"50"
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/hd5/hb0/17560993890334/S21RUFFK12351RE_RED.jpg_1088Wx1632H",    
+        "name":"Ruff", 
+        "price":"599", 
+        "strikeprice":"1199", 
+        "description":"Bamboo Hood Boys T-Shirt", 
+        "off":"50"    
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/ha0/ha0/17290124197918/A21INFBJNS54_BLACK.jpg_1088Wx1632H",    
+        "name":"Infuse", 
+        "price":"399", 
+        "strikeprice":"799", 
+        "description":"Solid Denim Regular Fit Boys Jeans", 
+        "off":"50"    
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/h4b/h13/17514103799838/S21RUFFK12377WH_WHITE.jpg_1088Wx1632H",    
+        "name":"Ruff", 
+        "price":"249", 
+        "strikeprice":"499", 
+        "description":"Cotton Round Neck Boys T-Shirt",
+        "off":"50"    
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/h8b/hd8/26534614663198/A21711BTRO008A_GREEN.jpg_1088Wx1632H",    
+        "name":"Stop", 
+        "price":"399", 
+        "strikeprice":"799", 
+        "description":"Solid Cotton Rich Round Neck Boys Troyer", 
+        "off":"50"    
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/h6f/haf/26832359358494/S21711BSHIRT08_MID_STONE.jpg_1088Wx1632H",    
+        "name":"Life", 
+        "price":"399", 
+        "strikeprice":"799", 
+        "description":"Solid Cotton Collar Neck Boys Shirt", 
+        "off":"50"
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/h25/h2f/16613495734302/S21GJB382C180KH_KHAKI.jpg_1088Wx1632H",    
+        "name":"Gini & Jony", 
+        "price":"389", 
+        "strikeprice":"649", 
+        "description":"Printed Cotton Regular Fit Boys Shorts", 
+        "off":"40"    
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/h8b/h64/17380266999838/A21GJB218C472RE_RED.jpg_1088Wx1632H",    
+        "name":"Gini & Jony", 
+        "price":"329", 
+        "strikeprice":"549", 
+        "description":"Knits Plain Polo Neck Boys T-Shirt", 
+        "off":"40"
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/h3c/h81/26774568828958/A21521053329NA_NAVY.jpg_1088Wx1632H",    
+        "name":"Monte Carlo", 
+        "price":"772", 
+        "strikeprice":"1545", 
+        "description":"Solid Cotton Round Neck Boys Pullover", 
+        "off":"50"
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/hef/h55/17561018204190/S21RUFFK05964LE_LEMON.jpg_1088Wx1632H",    
+        "name":"Ruff", 
+        "price":"699", 
+        "strikeprice":"1399", 
+        "description":"Tencel Hood Boys Shirt", 
+        "off":"50"   
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/h62/h88/17290093068318/A21INFBJNS45_BLACK.jpg_1088Wx1632H",    
+        "name":"Infuse", 
+        "price":"349", 
+        "strikeprice":"699", 
+        "description":"Solid Cotton Round Neck Boys Pullover", 
+        "off":"50"    
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/hb6/h1b/16916242759710/S21TSB400055GR_GREEN.jpg_1088Wx1632H",    
+        "name":"Tales & Stories", 
+        "price":"399", 
+        "strikeprice":"799", 
+        "description":"Printed Cotton Round Neck Boys T-Shirt",
+        "off":"50" 
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/hc8/h4f/16536775983134/S21710BTEE043_ROYAL_BLUE.jpg_1088Wx1632H",    
+        "name":"Stop", 
+        "price":"249", 
+        "strikeprice":"499", 
+        "description":"Stripes Cotton Rich Polo Neck Boys T-Shirt", 
+        "off":"50"
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/hba/h7e/17403231371294/A21521053148OL_OLIVE.jpg_1088Wx1632H",    
+        "name":"Monte Carlo", 
+        "price":"665", 
+        "strikeprice":"1330", 
+        "description":"Printed Cotton Blend Round Neck Boys Sweatshirt", 
+        "off":"50"
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/he3/h22/17380482711582/S21GJB524C207BL_BLACK.jpg_1088Wx1632H",    
+        "name":"Gini & Jony", 
+        "price":"479", 
+        "strikeprice":"799", 
+        "description":"Printed Knits Plain Regular Fit Boys Knits Bermuda", 
+        "off":"40"  
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/h78/hc7/17355257675806/A21INFBJNS43_MID_STONE.jpg_1088Wx1632H",    
+        "name":"Infuse", 
+        "price":"349", 
+        "strikeprice":"699", 
+        "description":"Solid Denim Regular Fit Boys Shorts",
+        "off":"50"
+        },
+        {
+        "img":"https://sslimages.shoppersstop.com/sys-master/images/hd6/h1c/17502197678110/S21RUFF12367PRE_RED.jpg_1088Wx1632H",    
+        "name":"Ruff", 
+        "price":"499", 
+        "strikeprice":"999", 
+        "description":"Cotton Blend Comfort Fit Boys Track Pants", 
+        "off":"50"
+        }
+  ],
+
+  "luxe": [
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hae/hd0/17577998155806/202006476_GRAPEFRUIT_AND_CHAMOMILE.jpg_1088Wx1632H",
+      "name": "Mac",
+      "price": "2900",
+      "strikeprice": "",
+      "description": "Prep + Prime Grapefruit & Chamomile Essential Oils - 15 ml",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hbc/h15/15036572598302/9869100_UNMAPPED_alt1.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "895",
+      "strikeprice": "",
+      "description": "Unisex Extra Virgin Organic Coconut Oil 200 ml - IN",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h51/h63/9850347814942/201102346_9999.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "595",
+      "strikeprice": "",
+      "description": "Kids Natural Baby Soap - 125 gms",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h00/h8c/14786890498078/203596140_9999.jpg_1088Wx1632H",
+      "name": "Clarins",
+      "price": "4100",
+      "strikeprice": "",
+      "description": "Body Lift 200ml - 200ml",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/ha3/h88/14847763120158/206599860_9999_alt2.jpg_1088Wx1632H",
+      "name": "Clarins",
+      "price": "3100",
+      "strikeprice": "",
+      "description": "Womens Lotus Face Treatment Oil - 30 ml",
+      "off": "" 
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h9a/h2e/15036824715294/203696235_UNMAPPED_alt1.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "1750",
+      "strikeprice": "",
+      "description": "Mens Kokum And Almond Body Butter 200G - IN",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h90/h2a/9850501595166/201027827_9999.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "550",
+      "strikeprice": "",
+      "description": "Foot Scrub - 50 GM",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h86/h3f/16837226299422/205955053_NOCOLOUR.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "2195",
+      "strikeprice": "",
+      "description": "Essential Skincare Regime - 125 gm",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hd1/he6/15036415344670/9869171_UNMAPPED_alt1.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "715",
+      "strikeprice": "",
+      "description": "Unisex Red Sandalwood Ayurvedic Soap 125G - IN",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/had/h96/9850612875294/200286850_9999.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "695",
+      "strikeprice": "",
+      "description": "Natural Vetiver & Sisal Loofah - 50 GM",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hee/ha6/16100578328606/FA0CLA800S55206_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Clarins",
+      "price": "4500",
+      "strikeprice": "",
+      "description": "Plant Gold Nutri-Revitalizing Oil-Emulsion",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/he0/h44/9850417315870/9869102_9999.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "895",
+      "strikeprice": "",
+      "description": "Foot Cream - 60 GM",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/B8AC9759D45547D9AEF177F0DE13B7C8/img/9507087A7EB94734B8588654353A78A4/203696236_9999_9507087A7EB94734B8588654353A78A4.jpg",
+      "name": "Kama Ayurveda",
+      "price": "650",
+      "strikeprice": "",
+      "description": "Sugar Tamarind cleansing Soap - 125gm",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hc0/hea/9850188562462/9869195_9999.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "1325",
+      "strikeprice": "",
+      "description": "Sugandhadi Rejuvenating Body Treatment Oil - 250 ML",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hb4/h8c/15036631810078/9869151_UNMAPPED.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "250",
+      "strikeprice": "",
+      "description": "Unisex Navaa Retexturising Soap 75G - IN",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h10/h30/15036721954846/9869106_UNMAPPED.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "295",
+      "strikeprice": "",
+      "description": "Unisex Heal Revitalising Transparent Soap 75G - IN",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hf4/hb1/15036427010078/9869097_UNMAPPED.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "1295",
+      "strikeprice": "",
+      "description": "Unisex Dhanwantaram Thailam 250 ml - IN",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h91/h64/9850132660254/9869152_9999.jpg_1088Wx1632H",
+      "name": "Kama Ayurveda",
+      "price": "250",
+      "strikeprice": "",
+      "description": "Unisex Nimba Purifying Soap 75G - IN",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h00/h54/15694338392094/MAC-SK9004_NoColour.jpg_1088Wx1632H",
+      "name": "Mac",
+      "price": "3300",
+      "strikeprice": "",
+      "description": "Strobe Body Lotion - Bronze 100Ml/3.4Floz",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h3f/h4d/14850207416350/206599854_9999.jpg_1088Wx1632H",
+      "name": "Clarins",
+      "price": "3100",
+      "strikeprice": "",
+      "description": "Womens Clarins Huile Santal Face Treatment Oil - 30 ml",
+      "off": ""
+    }
+  ],
+
+  "mens": [
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h85/h8f/26840589565982/AW21IPT041_TEAL.jpg_230Wx334H",
+      "name": "Insufe",
+      "price": "399",
+      "strikeprice": "799",
+      "description": "Printed Cotton Regular Fit Mens T-Shirt",
+      "off": "30",
+      "rightimg": "https://sslimages.s3-ap-southeast-1.amazonaws.com/sys-master/images/h3b/hea/26840795578398/AW21IPT041_TEAL_alt2.jpg_1088Wx1632H",
+      "frontimg": "https://sslimages.shoppersstop.com/sys-master/images/h5e/hd5/26840790433822/AW21IPT041_TEAL_alt3.jpg_1088Wx1632H",
+      "halfimg": "https://sslimages.shoppersstop.com/sys-master/images/h1e/hf6/26840588648478/AW21IPT041_TEAL_alt4.jpg_1088Wx1632H",
+      "backtimg": "https://sslimages.shoppersstop.com/sys-master/images/hd2/h2a/26840798658590/AW21IPT041_TEAL_alt1.jpg_1088Wx1632H"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hb9/h0d/26971781824542/S22SFCSLB930357_BLACK.jpg_1088Wx1632H",
+      "name": "Louis Philippe Sports",
+      "price": "1297",
+      "strikeprice": "2199",
+      "description": "Solid Cotton Slim Fit Mens Casual Shirt",
+      "off": "41",
+      "rightimg": "https://sslimages.shoppersstop.com/sys-master/images/h0e/h50/26969936396318/S22SFCSLB930357_BLACK_alt2.jpg_1088Wx1632H",
+      "frontimg": "https://sslimages.s3-ap-southeast-1.amazonaws.com/sys-master/images/h93/hf9/26970356776990/S22SFCSLB930357_BLACK_alt3.jpg_1088Wx1632H",
+      "halfimg": "https://sslimages.shoppersstop.com/sys-master/images/h2b/ha9/26970180714526/S22SFCSLB930357_BLACK_alt4.jpg_1088Wx1632H",
+      "backimg": "https://sslimages.shoppersstop.com/sys-master/images/hf8/h0f/26970736984094/S22SFCSLB930357_BLACK_alt1.jpg_1088Wx1632H"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h23/h18/17556128825374/AW21DQCN003_TEAL.jpg_1088Wx1632H",
+      "name": "Infuse",
+      "price": "279",
+      "strikeprice": "699",
+      "description": "Printed Cotton Jersey Regular Fit Mens T-Shirt",
+      "off": "60",
+      "rightimg": "https://sslimages.shoppersstop.com/sys-master/images/h27/hc6/17556227358750/AW21DQCN003_TEAL_alt2.jpg_1088Wx1632H",
+      "frontimg": "https://sslimages.shoppersstop.com/sys-master/images/h2e/h5f/17556145045534/AW21DQCN003_TEAL_alt3.jpg_1088Wx1632H",
+      "halfimg": "https://sslimages.shoppersstop.com/sys-master/images/hf2/hc9/17556112703518/AW21DQCN003_TEAL_alt4.jpg_1088Wx1632H",
+      "backimg": "https://sslimages.shoppersstop.com/sys-master/images/h49/hc4/17556170244126/AW21DQCN003_TEAL_alt1.jpg_1088Wx1632H"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h30/h93/17122102444062/A21INFDLF07_STONE.jpg_230Wx334H",
+      "name": "Louis Philippe Jeans",
+      "price": "1767",
+      "strikeprice": "2999",
+      "description": "Slim Fit Mens Jeans",
+      "off": "41",
+      "rightimg": "https://sslimages.shoppersstop.com/B8AC9759D45547D9AEF177F0DE13B7C8/img/B069331588DA42CAAB5752915318AAF5/205440361_8394_alt2_B069331588DA42CAAB5752915318AAF5.jpg",
+      "frontimg": "https://sslimages.shoppersstop.com/B8AC9759D45547D9AEF177F0DE13B7C8/img/44622CAAA3FE45578D9018C1A68EB693/205440361_8394_alt3_44622CAAA3FE45578D9018C1A68EB693.jpg",
+      "halfimg": "https://sslimages.shoppersstop.com/B8AC9759D45547D9AEF177F0DE13B7C8/img/9D96552F34524E5E8C12FD26387B15AC/205440361_8394_alt4_9D96552F34524E5E8C12FD26387B15AC.jpg",
+      "backimg": "https://sslimages.shoppersstop.com/B8AC9759D45547D9AEF177F0DE13B7C8/img/AAC3DC74CAD449AF940732060EB91E19/205440361_8394_alt1_AAC3DC74CAD449AF940732060EB91E19.jpg"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h85/h8f/26840589565982/AW21IPT041_TEAL.jpg_230Wx334H",
+      "name": "Insufe",
+      "price": "399",
+      "strikeprice": "799",
+      "description": "Printed Cotton Regular Fit Mens T-Shirt",
+      "off": "30",
+      "rightimg": "https://sslimages.s3-ap-southeast-1.amazonaws.com/sys-master/images/h3b/hea/26840795578398/AW21IPT041_TEAL_alt2.jpg_1088Wx1632H",
+      "frontimg": "https://sslimages.shoppersstop.com/sys-master/images/h5e/hd5/26840790433822/AW21IPT041_TEAL_alt3.jpg_1088Wx1632H",
+      "halfimg": "https://sslimages.shoppersstop.com/sys-master/images/h1e/hf6/26840588648478/AW21IPT041_TEAL_alt4.jpg_1088Wx1632H",
+      "backimg": "https://sslimages.shoppersstop.com/sys-master/images/hd2/h2a/26840798658590/AW21IPT041_TEAL_alt1.jpg_1088Wx1632H"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/B8AC9759D45547D9AEF177F0DE13B7C8/img/C79113F79CAC449DBCDED30436E4A176/205440361_8394_C79113F79CAC449DBCDED30436E4A176.jpg",
+      "name": "Infuse",
+      "price": "749",
+      "strikeprice": "1499",
+      "description": "Washed Cotton Lycra Slim Fit Mens Denim",
+      "off": "50",
+      "rightimg": "",
+      "frontimg": "",
+      "halfimg": "",
+      "backimg": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/ha5/h51/26911145066526/A2130A1AMK186_BLUE.jpg_230Wx334H",
+      "name": "Tommy Hilfiger",
+      "price": "2299",
+      "strikeprice": "4599",
+      "description": "Solid Cotton Slim Fit Mens T-Shirt",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hc0/h70/26729865642014/S22STSTRPL106_MINT.jpg_230Wx334H",
+      "name": "Stop",
+      "price": "699",
+      "strikeprice": "999",
+      "description": "Stripes Cotton Blend Regular Fit Mens T-Shirt",
+      "off": "30"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hce/he6/26954214703134/FS1CKNB2974_BLACK.jpg_230Wx334H",
+      "name": "Life",
+      "price": "1999",
+      "strikeprice": "",
+      "description": "Cotton Elastane Mid Rise Crop Fit Mens Jeans",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h5c/h8a/26912193085470/IN-FU07_DARK_INDIGO.jpg_230Wx334H",
+      "name": "Louis Philippe Sports",
+      "price": "1297",
+      "strikeprice": "2199",
+      "description": "Solid Cotton Slim Fit Mens Casual Shirt",
+      "off": "41"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h0c/h6b/17376674250782/A21FC528HUWHITE_WHITE.jpg_230Wx334H",
+      "name": "Infuse",
+      "price": "279",
+      "strikeprice": "699",
+      "description": "Printed Cotton Jersey Regular Fit Mens T-Shirt",
+      "off": "60"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h5e/hf2/26880227737630/S22VHSF1M100275_GREY.jpg_230Wx334H",
+      "name": "Louis Philippe Jeans",
+      "price": "1767",
+      "strikeprice": "2999",
+      "description": "Slim Fit Mens Jeans",
+      "off": "41"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hb6/h58/16960747896862/S21FC510AH-02-W_YELLOW.jpg_230Wx334H",
+      "name": "Van Heusen",
+      "price": "399",
+      "strikeprice": "799",
+      "description": "Printed Cotton Regular Fit Mens T-Shirt",
+      "off": "30"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h30/h93/17122102444062/A21INFDLF07_STONE.jpg_230Wx334H",
+      "name": "Infuse",
+      "price": "749",
+      "strikeprice": "1499",
+      "description": "Washed Cotton Lycra Slim Fit Mens Denim",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h8a/he8/17318904594462/AW21TEE013_BLUE.jpg_230Wx334H",
+      "name": "Tommy Hilfiger",
+      "price": "2299",
+      "strikeprice": "4599",
+      "description": "Solid Cotton Slim Fit Mens T-Shirt",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hff/hdd/17556138557470/AW21DQCN006_LILAC.jpg_230Wx334H",
+      "name": "Stop",
+      "price": "699",
+      "strikeprice": "999",
+      "description": "Stripes Cotton Blend Regular Fit Mens T-Shirt",
+      "off": "30"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h7f/h44/17122208874526/A21INFDLF06_STONE.jpg_230Wx334H",
+      "name": "Life",
+      "price": "1999",
+      "strikeprice": "",
+      "description": "Cotton Elastane Mid Rise Crop Fit Mens Jeans",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h85/he7/26910998986782/A2130TSA1ATK325_WHITE.jpg_230Wx334H",
+      "name": "Louis Philippe Sports",
+      "price": "1297",
+      "strikeprice": "2199",
+      "description": "Solid Cotton Slim Fit Mens Casual Shirt",
+      "off": "41"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/ha4/he3/17291967725598/A21INFDLF04_TINT.jpg_230Wx334H",
+      "name": "Infuse",
+      "price": "279",
+      "strikeprice": "699",
+      "description": "Printed Cotton Jersey Regular Fit Mens T-Shirt",
+      "off": "60"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hc7/hba/16518429736990/S21EVANDERLSILI_LIGHT_BLUE.jpg_230Wx334H",
+      "name": "Pepe",
+      "price": "1767",
+      "strikeprice": "2999",
+      "description": "Slim Fit Mens Jeans",
+      "off": "41"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h2f/h7f/26954260709406/205336612_MULTI.jpg_230Wx334H",
+      "name": "Insufe",
+      "price": "399",
+      "strikeprice": "799",
+      "description": "Printed Cotton Regular Fit Mens T-Shirt",
+      "off": "30"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hcc/h6a/26554323763230/A21IGH047_LIME_GREEN.jpg_230Wx334H",
+      "name": "Infuse",
+      "price": "749",
+      "strikeprice": "1499",
+      "description": "Washed Cotton Lycra Slim Fit Mens Denim",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/ha5/h51/26911145066526/A2130A1AMK186_BLUE.jpg_230Wx334H",
+      "name": "Tommy Hilfiger",
+      "price": "2299",
+      "strikeprice": "4599",
+      "description": "Solid Cotton Slim Fit Mens T-Shirt",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h4e/h12/17179695317022/A21BZMSLF344704_BLACK.jpg_230Wx334H",
+      "name": "Allensolly",
+      "price": "2298",
+      "strikeprice": "",
+      "description": "Allen solly Jacket",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/he0/h50/26560831488030/A211STJKT1104OL_OLIVE.jpg_230Wx334H",
+      "name": "Life",
+      "price": "1999",
+      "strikeprice": "",
+      "description": "Cotton Elastane Mid Rise Crop Fit Mens Jeans",
+      "off": ""
+    }
+  ],
+  "watch": [
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h00/hf6/26909094412318/WTT90149AP03_NoColour_alt2.jpg_1088Wx1632H",
+      "name": "titan wearables",
+      "price": "11995",
+      "strikeprice": "14995",
+      "description": "Mens Black Dial Silicone Smart Watch",
+      "off": "20"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h00/hf6/26909094412318/WTT90149AP03_NoColour_alt2.jpg_1088Wx1632H",
+      "name": "fastrack wearables",
+      "price": "4995",
+      "strikeprice": "6995",
+      "description": "Unisex 37.25 mm Reflex Vox Carbon Black Dial Silicone Smart Watch",
+      "off": "29"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/he8/h1e/14126317928478/205414866_9999.jpg_1088Wx1632H",
+      "name": "5453",
+      "price": "7790",
+      "strikeprice": "Giordano",
+      "description": "Mens Black Dial Metallic Multi-Function Watch",
+      "off": "30"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/he7/he1/26909183344670/WTT90149AP01_NoColour_alt2.jpg_1088Wx1632H",
+      "name": "Titan Wearables",
+      "price": "11995",
+      "strikeprice": "14995",
+      "description": "Mens Black Dial Silicone Smart Watch ",
+      "off": "20"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hee/hb5/26857329098782/WFIAE-AX2428I_NoColour_alt2.jpg_1088Wx1632H",
+      "name": "Armani Exchange",
+      "price": "5596",
+      "strikeprice": "6995",
+      "description": "Mens 46 mm Black Dial Silicone Analogue Watch",
+      "off": "20"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hb2/h51/27002835009566/WTT1856QM01_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Titan",
+      "price": "10995",
+      "strikeprice": "",
+      "description": "Mens 39.5 mm Octane Aerobatics Grey Dial Stainless Steel Analogue Watch",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hb2/h51/27002835009566/WTT1856QM01_NoColour_alt1.jpg_1088Wx1632H",
+      "name": "Fastrack Wearables",
+      "price": "4995",
+      "strikeprice": "6995",
+      "description": "Unisex 37.25 mm Reflex Vox Flaming Red Dial Silicone Smart Watch",
+      "off": "29"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hbb/he3/27159041638430/WGOG305103_NoColour_alt2.jpg_1088Wx1632H",
+      "name": "Giordano",
+      "price": "5650",
+      "strikeprice": "",
+      "description": "Mens 43 mm Black Dial Silicone Analog Watch",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h71/h22/27146240360478/WFT3269KM02_NoColour_alt2.jpg_1088Wx1632H",
+      "name": "Fastrack",
+      "price": "4795",
+      "strikeprice": "",
+      "description": "Mens 46.5 mm Batman Black Dial Stainless Steel Analog Watch",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h93/h70/26856672952350/WFI-DZ1475I_NoColour.jpg_1088Wx1632H",
+      "name": "Diesel",
+      "price": "9995",
+      "strikeprice": "",
+      "description": "Mens 45 mm Master Chief Black Dial Leather Analogue Watch",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h01/h25/14123702517790/205387608_9999.jpg_1088Wx1632H",
+      "name": "Emporio Armani",
+      "price": "33461",
+      "strikeprice": "33495",
+      "description": "Mens Two Tone Dial Leather Analogue Watch",
+      "off": "0"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hce/hf0/16701996400670/WFIF-FS5771I_NoColour.jpg_1088Wx1632H",
+      "name": "Fossil",
+      "price": "9995",
+      "strikeprice": "",
+      "description": "Mens Garrett Black Dial Chronograph Watch",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h25/haa/26842889060382/WA2035-ROSA_NoColour.jpg_1088Wx1632H",
+      "name": "Amazfit",
+      "price": "13999",
+      "strikeprice": "",
+      "description": "Unisex 42 mm GTS 3 Rose Gold Dial Silicone Amoled Smart Watch",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h91/h74/26909182230558/WTT90149AP02_NoColour.jpg_1088Wx1632H",
+      "name": "Titan Wearables",
+      "price": "11995",
+      "strikeprice": "14995",
+      "description": "Mens Black Dial Silicone Smart Watch",
+      "off": "20"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hc1/h0c/27002217168926/WFT3272NL01_NoColour.jpg_1088Wx1632H",
+      "name": "Fastrack",
+      "price": "4095",
+      "strikeprice": "",
+      "description": "Mens 40 mm After Dark Black Dial Suede Leather Analogue Watch",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hc0/ha4/26854103646238/WKCWGL2122303MN_NoColour.jpg_1088Wx1632H",
+      "name": "Kenneth Cole",
+      "price": "16995",
+      "strikeprice": "",
+      "description": "Mens 43.5 mm Black Dial Stainless Steel Bracelet Analogue Watch",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h0a/h5f/27005592535070/WCAA1973_NoColour.jpg_1088Wx1632H",
+      "name": "Casio",
+      "price": "4995",
+      "strikeprice": "",
+      "description": "Mens 45-55 mm Black Dial Stainless Steel Analogue Watch",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h55/h71/26944438960158/WTT1805QM05_NoColour.jpg_1088Wx1632H",
+      "name": "Titan",
+      "price": "5995",
+      "strikeprice": "",
+      "description": "Mens 49.2 x 42 mm NEO Splash Black Dial Stainless Steel Analogue Watch",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h7b/ha5/26844585066526/W-A2018BLK_NoColour.jpg_1088Wx1632H",
+      "name": "Amazfit",
+      "price": "6999",
+      "strikeprice": "",
+      "description": "Unisex 41 mm GTS 2 Mini Black Dial Silicone Amoled Smart Watch",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hb5/h45/16072610676766/WTFC-F1-D_NoColour.jpg_1088Wx1632H",
+      "name": "French Connection",
+      "price": "7450",
+      "strikeprice": "",
+      "description": "Unisex Black Dial Stainless Steel Smart Watch",
+      "off": ""
+    }
+  ],
+  "womens": [
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h75/h39/26852871536670/A21INPT2116F_WHITE.jpg_1088Wx1632H",
+      "name": "Infuse",
+      "price": "349",
+      "strikeprice": "699",
+      "description": "Printed Rayon Round Neck Womens Pin Tuck Top",
+      "off": "50",
+
+      "rightimg": "https://sslimages.shoppersstop.com/sys-master/images/h56/h43/26852848795678/A21INPT2116F_WHITE_alt2.jpg_1088Wx1632H",
+      "frontimg": "https://sslimages.shoppersstop.com/sys-master/images/h30/hf3/26852751999006/A21INPT2116F_WHITE_alt4.jpg_1088Wx1632H",
+      "halfimg": "https://sslimages.shoppersstop.com/sys-master/images/hc8/h89/26852846960670/A21INPT2116F_WHITE_alt3.jpg_1088Wx1632H",
+      "backimg": "https://sslimages.shoppersstop.com/sys-master/images/h8b/h35/26852680040478/A21INPT2116F_WHITE_alt1.jpg_1088Wx1632H"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hf1/h55/26443782488094/A21KUR112511116_RED.jpg_1088Wx1632H",
+      "name": "Varanga",
+      "price": "999",
+      "strikeprice": "3999",
+      "description": "Gotta Patti V- Neck Straight Designer Womens Kurtas",
+      "off": "75",
+
+      "rightimg": "https://sslimages.shoppersstop.com/sys-master/images/h3b/hda/26443886493726/A21KUR112511116_RED_alt2.jpg_1088Wx1632H",
+      "frontimg": "https://sslimages.shoppersstop.com/sys-master/images/h9a/h2a/26444936511518/A21KUR112511116_RED_alt3.jpg_1088Wx1632H",
+      "halfimg": "https://sslimages.shoppersstop.com/sys-master/images/hfd/hab/26444505415710/A21KUR112511116_RED_alt5.jpg_1088Wx1632H",
+      "backimg": "https://sslimages.shoppersstop.com/sys-master/images/h23/h78/26443887214622/A21KUR112511116_RED_alt1.jpg_1088Wx1632H"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h0b/hff/17427557089310/A219701OA_FUCHSIA.jpg_1088Wx1632H",
+      "name": "Juniper",
+      "price": "1349",
+      "strikeprice": "2999",
+      "description": "Embellished Silk Blend Mandarin Womens Regular Fit Kurta",
+      "off": "55",
+
+      "rightimg": "https://sslimages.shoppersstop.com/sys-master/images/he7/hf1/17427646939166/A219701OA_FUCHSIA_alt2.jpg_1088Wx1632H",
+      "frontimg": "https://sslimages.shoppersstop.com/sys-master/images/h80/hec/17427793117214/A219701OA_FUCHSIA_alt3.jpg_1088Wx1632H",
+      "halfimg": "https://sslimages.shoppersstop.com/sys-master/images/h29/h40/17427665813534/A219701OA_FUCHSIA_alt5.jpg_1088Wx1632H",
+      "backimg": "https://sslimages.shoppersstop.com/sys-master/images/h12/h1c/17427486212126/A219701OA_FUCHSIA_alt1.jpg_1088Wx1632H"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hda/hd9/17545535258654/CORESTKP06_BLACK.jpg_1088Wx1632H",
+      "name": "Stop",
+      "price": "299",
+      "strikeprice": "599",
+      "description": "Solid Straight Fit Cotton Lycra Womens All Occasions Pants",
+      "off": "50",
+
+      "rightimg": "https://sslimages.shoppersstop.com/sys-master/images/h1a/hab/17377273610270/CORESTKP06_BLACK_alt2.jpg_1088Wx1632H",
+      "frontimg": "https://sslimages.shoppersstop.com/sys-master/images/h62/h29/17544812134430/CORESTKP06_BLACK_alt3.jpg_1088Wx1632H",
+      "halfimg": "https://sslimages.shoppersstop.com/sys-master/images/h54/h4a/17545029910558/CORESTKP06_BLACK_alt5.jpg_1088Wx1632H",
+      "backimg": "https://sslimages.shoppersstop.com/sys-master/images/h46/hc6/17545440526366/CORESTKP06_BLACK_alt1.jpg_1088Wx1632H"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h70/hec/26932919304222/A21ITP00985_PINK.jpg_1088Wx1632H",
+      "name": "Indya",
+      "price": "1800",
+      "strikeprice": "",
+      "description": "Embroidered Georgette Scoop Neck Womens Regular Top",
+      "off": "",
+
+      "rightimg": "",
+      "frontimg": "",
+      "halfimg": "",
+      "backimg": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h54/hf6/26852837785630/A21INPT2110FB_RED.jpg_1088Wx1632H",
+      "name": "Infuse",
+      "price": "349",
+      "strikeprice": "699",
+      "description": "Printed Rayon Crape Round Neck Womens Pin Tuck Top",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h5f/h4c/26852709990430/A21INGD2136F_GREEN.jpg_1088Wx1632H",
+      "name": "Infuse",
+      "price": "599",
+      "strikeprice": "1199",
+      "description": "Printed Round Neck Cotton Flex Womens Gather Dress",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h45/h4d/17435785297950/A21112510880_BLUE.jpg_1088Wx1632H",
+      "name": "Varanga",
+      "price": "824",
+      "strikeprice": "3299",
+      "description": "Printed Cotton Halter Neck Womens Calf Length Kurta",
+      "off": "75"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/ha9/h09/17201449074718/A21YI0893DP_GREEN.jpg_1088Wx1632H",
+      "name": "Yuris",
+      "price": "1224",
+      "strikeprice": "3499",
+      "description": "Lace Round Neck Cotton Womens Kurta Palazzo Set",
+      "off": "65"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h1e/h4f/17545476571166/CORESTKP02_MAROON.jpg_1088Wx1632H",
+      "name": "Stop",
+      "price": "299",
+      "strikeprice": "599",
+      "description": "Solid Straight Fit Cotton Lycra Womens All Occasions Pants",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h32/hcb/17545314205726/CORESTKP01_WHITE.jpg_1088Wx1632H",
+      "name": "Stop",
+      "price": "299",
+      "strikeprice": "599",
+      "description": "Solid Straight Fit Cotton Lycra Womens All Occasions Pants",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hcb/h08/17545317220382/CORESTKP03_BEIGE.jpg_1088Wx1632H",
+      "name": "Stop",
+      "price": "299",
+      "strikeprice": "599",
+      "description": "Solid Straight Fit Cotton Lycra Womens All Occasions Pants",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h70/hbe/26932590608414/A21ISK00684_GREEN.jpg_1088Wx1632H",
+      "name": "Indya",
+      "price": "2040",
+      "strikeprice": "3400",
+      "description": "Printed Georgette Regular Fit Womens Festive Wear Saree",
+      "off": "40"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hda/heb/26402612379678/A21KHMY3253_PINK.jpg_1088Wx1632H",
+      "name": "Kami Kubi",
+      "price": "1999",
+      "strikeprice": "4999",
+      "description": "Embroidered Silk Blend Womens Unstitched Suit Piece",
+      "off": "60"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hc7/ha9/17237385052190/A21INFLE4C_GREY.jpg_1088Wx1632H",
+      "name": "Infuse",
+      "price": "199",
+      "strikeprice": "499",
+      "description": "Fitted Full Length Cotton Lycra Womens Leggings",
+      "off": "60"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h72/h82/26932797997086/A21ITN03383_PINK.jpg_1088Wx1632H",
+      "name": "Indya",
+      "price": "1680",
+      "strikeprice": "2800",
+      "description": "Embroidered Round Neck Georgette Womens Ankle Length Kurta",
+      "off": "40"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hca/h0e/17545312043038/A21STEPP77_SKY_BLUE.jpg_1088Wx1632H",
+      "name": "Stop",
+      "price": "559",
+      "strikeprice": "799",
+      "description": "Printed Cotton Mandarin Womens Knee Length Kurta",
+      "off": "30"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h6d/h4c/16805602295838/S2110044AEIFU_FUSCHIA.jpg_1088Wx1632H",
+      "name": "Juniper",
+      "price": "1394",
+      "strikeprice": "3099",
+      "description": "Embroidered Mandarin Neck Anarkali Womens Kurta",
+      "off": "55"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h18/hb3/26835305103390/AW21HCST252_GREEN.jpg_1088Wx1632H",
+      "name": "Haute Curry",
+      "price": "1767",
+      "strikeprice": "",
+      "description": "Printed Mandarin Neck Regular Womens Tunics & Tops",
+      "off": ""
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/hfc/hb2/17221372280862/A21JNE3714KR_PEACOCK.jpg_1088Wx1632H",
+      "name": "Janasya",
+      "price": "629",
+      "strikeprice": "1399",
+      "description": "Floral Crepe V-Neck Womens Flared Kurta",
+      "off": "55"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h37/hb8/17545301098526/CORESTCP06_BEIGE.jpg_1088Wx1632H",
+      "name": "Stop",
+      "price": "299",
+      "strikeprice": "599",
+      "description": "Solid Straight Fit Cotton Womens All Occasions Pants",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/ha1/h41/26477881851934/A21INFSKU08_NAVY.jpg_1088Wx1632H",
+      "name": "Infuse",
+      "price": "319",
+      "strikeprice": "799",
+      "description": "Printed Cotton Mandarin Neck Womens Straight Fit Kurta",
+      "off": "60"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h4c/hcf/27053415333918/S22734RF8688_MUSTARD.jpg_1088Wx1632H",
+      "name": "Neerus",
+      "price": "990",
+      "strikeprice": "1980",
+      "description": "Embroidered Cotton Blend Round Neck Womens Straight Kurta",
+      "off": "50"
+    },
+    {
+      "img": "https://sslimages.shoppersstop.com/sys-master/images/h29/h71/26523521253406/AW21KSSE223F_FUCHSIA.jpg_1088Wx1632H",
+      "name": "Kashish",
+      "price": "2799",
+      "strikeprice": "3999",
+      "description": "Embroidered Round Neck Viscose Blend Womens Ethnic Set",
+      "off": "30"
+    }
+  ]
 }
