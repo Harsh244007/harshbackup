@@ -1,0 +1,221 @@
+{
+    "kids": [ 
+        {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/h47/h03/17380199104542/A21GJB945C303YE_YELLOW.jpg_1088Wx1632H",    
+            "name":"Gini & Jony", 
+            "price":"299", 
+            "strikeprice":"499", 
+            "description":"Chest Printed Knits Plain Round Neck Boys T-Shirt", 
+            "off":"40",    
+            
+            "rightimg":"https://sslimages.shoppersstop.com/sys-master/images/h29/hdb/17378901753886/A21GJB945C303YE_YELLOW_alt2.jpg_2000Wx3000H",
+            "frontimg":"https://sslimages.shoppersstop.com/sys-master/images/h5a/hd4/17378901557278/A21GJB945C303YE_YELLOW_alt2.jpg_1088Wx1632H",
+            "halfimg":"https://sslimages.shoppersstop.com/sys-master/images/h29/hdb/17378901753886/A21GJB945C303YE_YELLOW_alt2.jpg_2000Wx3000H",
+            "backimg":"https://sslimages.shoppersstop.com/sys-master/images/h8e/hc3/17380109549598/A21GJB945C303YE_YELLOW_alt1.jpg_1088Wx1632H"
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/hb1/h01/16916310786078/S21TSB399031GR_GREEN.jpg_1088Wx1632H",    
+            "name":"Tales & Stories", 
+            "price":"399", 
+            "strikeprice":"799", 
+            "description":"Solid Cotton Round Neck Boys T-Shirt", 
+            "off":"50",    
+            
+            "rightimg":"https://sslimages.shoppersstop.com/sys-master/images/hc8/h3d/16916861550622/S21TSB399031GR_GREEN_alt2.jpg_1088Wx1632H",
+            "frontimg":"https://sslimages.shoppersstop.com/sys-master/images/h71/hee/16916252819486/S21TSB399031GR_GREEN_alt1.jpg_1088Wx1632H",
+            "halfimg":"https://sslimages.shoppersstop.com/sys-master/images/hc8/h3d/16916861550622/S21TSB399031GR_GREEN_alt2.jpg_1088Wx1632H",
+            "backimg":"https://sslimages.shoppersstop.com/sys-master/images/h71/hee/16916252819486/S21TSB399031GR_GREEN_alt1.jpg_1088Wx1632H"
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/h10/hc4/26832362373150/S21710BSHIRT08_MID_BLUE.jpg_1088Wx1632H",    
+            "name":"Stop", 
+            "price":"349", 
+            "strikeprice":"699", 
+            "description":"Solid Cotton Collar Neck Boys Shirt",
+            "off":"50", 
+            
+            "rightimg":"https://sslimages.shoppersstop.com/sys-master/images/hf2/hc6/26832354181150/S21710BSHIRT08_MID_BLUE_alt1.jpg_1088Wx1632H",
+            "frontimg":"https://sslimages.shoppersstop.com/sys-master/images/h2b/hc9/26832493183006/S21710BSHIRT08_MID_BLUE_alt4.jpg_1088Wx1632H",
+            "halfimg":"https://sslimages.shoppersstop.com/sys-master/images/h31/h87/26832357654558/S21710BSHIRT08_MID_BLUE_alt3.jpg_1088Wx1632H",
+            "backimg":"https://sslimages.shoppersstop.com/sys-master/images/h70/h4f/26832342941726/S21710BSHIRT08_MID_BLUE_alt2.jpg_1088Wx1632H"
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/hed/hcb/26960197746718/S22711GDRESS29_PEACH.jpg_1088Wx1632H",    
+            "name":"Life", 
+            "price":"799", 
+            "strikeprice":"", 
+            "description":"Swiss Dobby Polyester Round Neck Girls Casual Dress", 
+            "off":"",    
+            
+            "rightimg":"https://sslimages.shoppersstop.com/sys-master/images/ha2/hfa/26960163012638/S22711GDRESS29_PEACH_alt2.jpg_1088Wx1632H",
+            "frontimg":"https://sslimages.shoppersstop.com/sys-master/images/h5d/h1f/26960160784414/S22711GDRESS29_PEACH_alt3.jpg_1088Wx1632H",
+            "halfimg":"https://sslimages.shoppersstop.com/sys-master/images/h43/hec/26960202203166/S22711GDRESS29_PEACH_alt4.jpg_1088Wx1632H",
+            "backimg":"https://sslimages.shoppersstop.com/sys-master/images/h12/h0b/26960199843870/S22711GDRESS29_PEACH_alt1.jpg_1088Wx1632H"
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/hee/h34/26772583579678/A21521053145BL_BLACK.jpg_1088Wx1632H",    
+            "name":"Monte Carlo", 
+            "price":"640", 
+            "strikeprice":"1280", 
+            "description":"Printed Cotton Blend Round Neck Boys Sweatshirt", 
+            "off":"50",    
+            
+            "rightimg":"",
+            "frontimg":"",
+            "halfimg":"",
+            "backimg":""
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/h73/hea/16613210587166/S21RUFFK12312NA_NAVY.jpg_1088Wx1632H",    
+            "name":"Ruff", 
+            "price":"399", 
+            "strikeprice":"799", 
+            "description":"Graphic Cotton Round Neck Boys T-Shirt", 
+            "off":"50"
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/h5e/h08/26775274389534/A21521053193GR_GREY.jpg_1088Wx1632H",    
+            "name":"Monte Carlo", 
+            "price":"712", 
+            "strikeprice":"1425", 
+            "description":"Printed Cotton Blend Collar Neck Boys Sweatshirt", 
+            "off":"50" 
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/ha6/h26/26771642941470/A21521053102RE_RED.jpg_1088Wx1632H",    
+            "name":"Monte Carlo", 
+            "price":"465", 
+            "strikeprice":"930", 
+            "description":"Printed Cotton Blend Round Neck Boys Sweatshirt", 
+            "off":"50"
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/hd5/hb0/17560993890334/S21RUFFK12351RE_RED.jpg_1088Wx1632H",    
+            "name":"Ruff", 
+            "price":"599", 
+            "strikeprice":"1199", 
+            "description":"Bamboo Hood Boys T-Shirt", 
+            "off":"50"    
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/ha0/ha0/17290124197918/A21INFBJNS54_BLACK.jpg_1088Wx1632H",    
+            "name":"Infuse", 
+            "price":"399", 
+            "strikeprice":"799", 
+            "description":"Solid Denim Regular Fit Boys Jeans", 
+            "off":"50"    
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/h4b/h13/17514103799838/S21RUFFK12377WH_WHITE.jpg_1088Wx1632H",    
+            "name":"Ruff", 
+            "price":"249", 
+            "strikeprice":"499", 
+            "description":"Cotton Round Neck Boys T-Shirt",
+            "off":"50"    
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/h8b/hd8/26534614663198/A21711BTRO008A_GREEN.jpg_1088Wx1632H",    
+            "name":"Stop", 
+            "price":"399", 
+            "strikeprice":"799", 
+            "description":"Solid Cotton Rich Round Neck Boys Troyer", 
+            "off":"50"    
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/h6f/haf/26832359358494/S21711BSHIRT08_MID_STONE.jpg_1088Wx1632H",    
+            "name":"Life", 
+            "price":"399", 
+            "strikeprice":"799", 
+            "description":"Solid Cotton Collar Neck Boys Shirt", 
+            "off":"50"
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/h25/h2f/16613495734302/S21GJB382C180KH_KHAKI.jpg_1088Wx1632H",    
+            "name":"Gini & Jony", 
+            "price":"389", 
+            "strikeprice":"649", 
+            "description":"Printed Cotton Regular Fit Boys Shorts", 
+            "off":"40"    
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/h8b/h64/17380266999838/A21GJB218C472RE_RED.jpg_1088Wx1632H",    
+            "name":"Gini & Jony", 
+            "price":"329", 
+            "strikeprice":"549", 
+            "description":"Knits Plain Polo Neck Boys T-Shirt", 
+            "off":"40"
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/h3c/h81/26774568828958/A21521053329NA_NAVY.jpg_1088Wx1632H",    
+            "name":"Monte Carlo", 
+            "price":"772", 
+            "strikeprice":"1545", 
+            "description":"Solid Cotton Round Neck Boys Pullover", 
+            "off":"50"
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/hef/h55/17561018204190/S21RUFFK05964LE_LEMON.jpg_1088Wx1632H",    
+            "name":"Ruff", 
+            "price":"699", 
+            "strikeprice":"1399", 
+            "description":"Tencel Hood Boys Shirt", 
+            "off":"50"   
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/h62/h88/17290093068318/A21INFBJNS45_BLACK.jpg_1088Wx1632H",    
+            "name":"Infuse", 
+            "price":"349", 
+            "strikeprice":"699", 
+            "description":"Solid Cotton Round Neck Boys Pullover", 
+            "off":"50"    
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/hb6/h1b/16916242759710/S21TSB400055GR_GREEN.jpg_1088Wx1632H",    
+            "name":"Tales & Stories", 
+            "price":"399", 
+            "strikeprice":"799", 
+            "description":"Printed Cotton Round Neck Boys T-Shirt",
+            "off":"50" 
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/hc8/h4f/16536775983134/S21710BTEE043_ROYAL_BLUE.jpg_1088Wx1632H",    
+            "name":"Stop", 
+            "price":"249", 
+            "strikeprice":"499", 
+            "description":"Stripes Cotton Rich Polo Neck Boys T-Shirt", 
+            "off":"50"
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/hba/h7e/17403231371294/A21521053148OL_OLIVE.jpg_1088Wx1632H",    
+            "name":"Monte Carlo", 
+            "price":"665", 
+            "strikeprice":"1330", 
+            "description":"Printed Cotton Blend Round Neck Boys Sweatshirt", 
+            "off":"50"
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/he3/h22/17380482711582/S21GJB524C207BL_BLACK.jpg_1088Wx1632H",    
+            "name":"Gini & Jony", 
+            "price":"479", 
+            "strikeprice":"799", 
+            "description":"Printed Knits Plain Regular Fit Boys Knits Bermuda", 
+            "off":"40"  
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/h78/hc7/17355257675806/A21INFBJNS43_MID_STONE.jpg_1088Wx1632H",    
+            "name":"Infuse", 
+            "price":"349", 
+            "strikeprice":"699", 
+            "description":"Solid Denim Regular Fit Boys Shorts",
+            "off":"50"
+            },
+            {
+            "img":"https://sslimages.shoppersstop.com/sys-master/images/hd6/h1c/17502197678110/S21RUFF12367PRE_RED.jpg_1088Wx1632H",    
+            "name":"Ruff", 
+            "price":"499", 
+            "strikeprice":"999", 
+            "description":"Cotton Blend Comfort Fit Boys Track Pants", 
+            "off":"50"
+            }
+      ]
+}

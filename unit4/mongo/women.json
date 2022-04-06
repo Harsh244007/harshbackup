@@ -1,0 +1,201 @@
+[{
+  "_id": {
+    "$oid": "6247d99ef7dc125c1c32aca0"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/h00/hf6/26909094412318/WTT90149AP03_NoColour_alt2.jpg_1088Wx1632H",
+  "name": "titan wearables",
+  "price": "11995",
+  "strikeprice": "14995",
+  "description": "Mens Black Dial Silicone Smart Watch",
+  "off": "20"
+},{
+  "_id": {
+    "$oid": "6247d9abf7dc125c1c32aca1"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/h00/hf6/26909094412318/WTT90149AP03_NoColour_alt2.jpg_1088Wx1632H",
+  "name": "fastrack wearables",
+  "price": "4995",
+  "strikeprice": "6995",
+  "description": "Unisex 37.25 mm Reflex Vox Carbon Black Dial Silicone Smart Watch",
+  "off": "29"
+},{
+  "_id": {
+    "$oid": "6247d9b8f7dc125c1c32aca2"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/he8/h1e/14126317928478/205414866_9999.jpg_1088Wx1632H",
+  "name": "5453",
+  "price": "7790",
+  "strikeprice": "Giordano",
+  "description": "Mens Black Dial Metallic Multi-Function Watch",
+  "off": "30"
+},{
+  "_id": {
+    "$oid": "6247d9c3f7dc125c1c32aca3"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/he7/he1/26909183344670/WTT90149AP01_NoColour_alt2.jpg_1088Wx1632H",
+  "name": "Titan Wearables",
+  "price": "11995",
+  "strikeprice": "14995",
+  "description": "Mens Black Dial Silicone Smart Watch ",
+  "off": "20"
+},{
+  "_id": {
+    "$oid": "6247d9d1f7dc125c1c32aca4"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/hee/hb5/26857329098782/WFIAE-AX2428I_NoColour_alt2.jpg_1088Wx1632H",
+  "name": "Armani Exchange",
+  "price": "5596",
+  "strikeprice": "6995",
+  "description": "Mens 46 mm Black Dial Silicone Analogue Watch",
+  "off": "20"
+},{
+  "_id": {
+    "$oid": "6247d9dcf7dc125c1c32aca5"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/hb2/h51/27002835009566/WTT1856QM01_NoColour_alt1.jpg_1088Wx1632H",
+  "name": "Titan",
+  "price": "10995",
+  "strikeprice": "",
+  "description": "Mens 39.5 mm Octane Aerobatics Grey Dial Stainless Steel Analogue Watch",
+  "off": ""
+},{
+  "_id": {
+    "$oid": "6247d9eaf7dc125c1c32aca6"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/hb2/h51/27002835009566/WTT1856QM01_NoColour_alt1.jpg_1088Wx1632H",
+  "name": "Fastrack Wearables",
+  "price": "4995",
+  "strikeprice": "6995",
+  "description": "Unisex 37.25 mm Reflex Vox Flaming Red Dial Silicone Smart Watch",
+  "off": "29"
+},{
+  "_id": {
+    "$oid": "6247d9f7f7dc125c1c32aca7"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/hbb/he3/27159041638430/WGOG305103_NoColour_alt2.jpg_1088Wx1632H",
+  "name": "Giordano",
+  "price": "5650",
+  "strikeprice": "",
+  "description": "Mens 43 mm Black Dial Silicone Analog Watch",
+  "off": ""
+},{
+  "_id": {
+    "$oid": "6247da04f7dc125c1c32aca8"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/h71/h22/27146240360478/WFT3269KM02_NoColour_alt2.jpg_1088Wx1632H",
+  "name": "Fastrack",
+  "price": "4795",
+  "strikeprice": "",
+  "description": "Mens 46.5 mm Batman Black Dial Stainless Steel Analog Watch",
+  "off": ""
+},{
+  "_id": {
+    "$oid": "6247da12f7dc125c1c32aca9"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/h93/h70/26856672952350/WFI-DZ1475I_NoColour.jpg_1088Wx1632H",
+  "name": "Diesel",
+  "price": "9995",
+  "strikeprice": "",
+  "description": "Mens 45 mm Master Chief Black Dial Leather Analogue Watch",
+  "off": ""
+},{
+  "_id": {
+    "$oid": "6247da1df7dc125c1c32acaa"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/h01/h25/14123702517790/205387608_9999.jpg_1088Wx1632H",
+  "name": "Emporio Armani",
+  "price": "33461",
+  "strikeprice": "33495",
+  "description": "Mens Two Tone Dial Leather Analogue Watch",
+  "off": "0"
+},{
+  "_id": {
+    "$oid": "6247da29f7dc125c1c32acab"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/hce/hf0/16701996400670/WFIF-FS5771I_NoColour.jpg_1088Wx1632H",
+  "name": "Fossil",
+  "price": "9995",
+  "strikeprice": "",
+  "description": "Mens Garrett Black Dial Chronograph Watch",
+  "off": ""
+},{
+  "_id": {
+    "$oid": "6247da36f7dc125c1c32acac"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/h25/haa/26842889060382/WA2035-ROSA_NoColour.jpg_1088Wx1632H",
+  "name": "Amazfit",
+  "price": "13999",
+  "strikeprice": "",
+  "description": "Unisex 42 mm GTS 3 Rose Gold Dial Silicone Amoled Smart Watch",
+  "off": ""
+},{
+  "_id": {
+    "$oid": "6247da44f7dc125c1c32acad"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/h91/h74/26909182230558/WTT90149AP02_NoColour.jpg_1088Wx1632H",
+  "name": "Titan Wearables",
+  "price": "11995",
+  "strikeprice": "14995",
+  "description": "Mens Black Dial Silicone Smart Watch",
+  "off": "20"
+},{
+  "_id": {
+    "$oid": "6247da4ff7dc125c1c32acae"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/hc1/h0c/27002217168926/WFT3272NL01_NoColour.jpg_1088Wx1632H",
+  "name": "Fastrack",
+  "price": "4095",
+  "strikeprice": "",
+  "description": "Mens 40 mm After Dark Black Dial Suede Leather Analogue Watch",
+  "off": ""
+},{
+  "_id": {
+    "$oid": "6247da5bf7dc125c1c32acaf"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/hc0/ha4/26854103646238/WKCWGL2122303MN_NoColour.jpg_1088Wx1632H",
+  "name": "Kenneth Cole",
+  "price": "16995",
+  "strikeprice": "",
+  "description": "Mens 43.5 mm Black Dial Stainless Steel Bracelet Analogue Watch",
+  "off": ""
+},{
+  "_id": {
+    "$oid": "6247da67f7dc125c1c32acb0"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/h0a/h5f/27005592535070/WCAA1973_NoColour.jpg_1088Wx1632H",
+  "name": "Casio",
+  "price": "4995",
+  "strikeprice": "",
+  "description": "Mens 45-55 mm Black Dial Stainless Steel Analogue Watch",
+  "off": ""
+},{
+  "_id": {
+    "$oid": "6247da73f7dc125c1c32acb1"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/h55/h71/26944438960158/WTT1805QM05_NoColour.jpg_1088Wx1632H",
+  "name": "Titan",
+  "price": "5995",
+  "strikeprice": "",
+  "description": "Mens 49.2 x 42 mm NEO Splash Black Dial Stainless Steel Analogue Watch",
+  "off": ""
+},{
+  "_id": {
+    "$oid": "6247da81f7dc125c1c32acb2"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/h7b/ha5/26844585066526/W-A2018BLK_NoColour.jpg_1088Wx1632H",
+  "name": "Amazfit",
+  "price": "6999",
+  "strikeprice": "",
+  "description": "Unisex 41 mm GTS 2 Mini Black Dial Silicone Amoled Smart Watch",
+  "off": ""
+},{
+  "_id": {
+    "$oid": "6247da8ff7dc125c1c32acb3"
+  },
+  "img": "https://sslimages.shoppersstop.com/sys-master/images/hb5/h45/16072610676766/WTFC-F1-D_NoColour.jpg_1088Wx1632H",
+  "name": "French Connection",
+  "price": "7450",
+  "strikeprice": "",
+  "description": "Unisex Black Dial Stainless Steel Smart Watch",
+  "off": ""
+}]
