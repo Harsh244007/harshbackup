@@ -1,0 +1,1 @@
+(()=>{var e=document.createElement("p");e.textContent="hello world",e.classList.a,document.getElementById("main").append(e)})();
