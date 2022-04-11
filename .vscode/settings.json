@@ -21,5 +21,6 @@
     "git.decorations.enabled": false,
     "workbench.editor.decorations.badges": false,
     "workbench.editor.decorations.colors": false,
-    "workbench.settings.editor": "json"
+    "workbench.settings.editor": "json",
+    "files.autoSaveDelay": 10
 }
