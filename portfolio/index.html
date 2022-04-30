@@ -147,7 +147,7 @@
     }
     .p11:hover {
       color: red !important;
-      font-size: 1.0vw !important;
+      font-size: 1vw !important;
       font-weight: bold;
     }
     #harsh:hover {
@@ -194,6 +194,10 @@
       height: 2vw;
     }
     #home1 {
+      text-align: center;
+      /* border: 1px solid red; */
+      margin: 10vw 12vw 10vw 12vw;
+      padding: auto;
       display: block;
     }
     #pro1 {
@@ -203,17 +207,19 @@
       display: none;
     }
     .p21 {
+      font-weight: bold;
       margin: 1vw 0vw 0vw 0vw;
       padding: 0vw 0vw 0vw 0vw;
       font-size: 1.3vw;
       font-family: "Courier New";
       color: red !important;
     }
-    .p21:hover{
-        font-weight: bold;
-        font-size: 1.5vw;
+    .p21:hover {
+      font-weight: bold;
+      font-size: 1.5vw;
     }
-    #i18:hover { width: 3vw;
+    #i18:hover {
+      width: 3vw;
       height: 3vw;
     }
     #img1:hover {
@@ -221,8 +227,20 @@
       height: 3vw;
     }
     #i17:hover {
-         width: 3vw;
+      width: 3vw;
       height: 3vw;
+    }
+    #h1y {
+      text-decoration: none;
+      color: red;
+      font-family: sans-serif;
+      font-weight: 100;
+    }
+    #h1y:active {
+      text-decoration: none;
+    }
+    #h1y:hover {
+      font-size: 1.3vw;
     }
   </style>
   <body id="body">
@@ -247,8 +265,7 @@
         <img id="img" src="./filename.png" />
 
         <p id="harsh">Harsh Patel</p>
-        <p class="p11">React Devloper</p>
-        <p class="p11">Learning RUST</p>
+        <p class="p11">MERN Stack Devloper</p>
         <br />
         <hr class="hr" />
         <p class="p21" onclick="home()">HOME</p>
@@ -268,50 +285,25 @@
         </div>
       </div>
       <div class="right">
-        <div id="home1">home</div>
+        <div id="home1">
+          <h2>
+            Hello, Myself Harsh. I am a Full-stack devloper for MERN stack.I
+            love creating webapps with React. I posses some superpower few which
+            are communication skill, collaborative skills, passionate about
+            coding and learning new technologies.
+          </h2>
+          <h2>
+            You can find
+            <a id="h1y" href="./projects.html">Projects info here, </a>or you can 
+            <a id="h1y" href="./contacts.html">Reach me here.</a>
+          </h2>
+        </div>
       </div>
     </div>
   </body>
-  <script>
-    var count = 2;
-
-    function cont1() {
-      window.location.href = "contacts.html";
-    }
-    function home() {
-      window.location.href = "index.html";
-    }
-    function pro12() {
-      window.location.href = "projects.html";
-    }
-    function dark() {
-      count++;
-      var img = document.getElementById("img");
-      var body = document.getElementById("body");
-      var i17 = document.getElementById("i17");
-      var i18 = document.getElementById("i18");
-      if (count % 2 == 0) {
-        body.style.backgroundColor = "#1e1e1e";
-        body.style.color = "white";
-        document.getElementById("harsh").style.color = "white";
-        img.style.border = "solid red";
-        img.style.boxShadow = " 0 0 0.9vw 0.8vw rgba(255, 8, 8, 0.27)";
-        i18.style.display = "none";
-        i17.style.display = "inline-block";
-      } else {
-        body.style.color = "black";
-        document.getElementById("harsh").style.color = "black";
-        body.style.backgroundColor = "white";
-        img.style.border = "solid #84cbdb";
-        i17.style.display = "none";
-        i18.style.display = "inline-block";
-        img.style.boxShadow = "0 0 0.6vw 0.6vw #84cbdb";
-      }
-    }
-    //  border: 0.15vw solid red;
-    //   border-radius: 12vw;
-    //   box-shadow: 0 0 0.9vw 0.8vw rgba(255, 8, 8, 0.27);
-  </script>
-
+ 
+  <link rel="stylesheet" href="./style.css" />
+  <script src="script.js"></script>
+  
   <script src="https://use.fontawesome.com/cdf5676fe9.js"></script>
 </html>
