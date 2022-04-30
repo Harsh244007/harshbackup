@@ -175,7 +175,6 @@ input:checked+.slider:before {
 .hr {
     width: 13vw;
 }
-
 #hand {
     text-decoration: none !important;
 }
@@ -226,17 +225,31 @@ input:checked+.slider:before {
     font-weight: bold;
     font-size: 1.5vw;
 }
-
+#i171,#i1712{
+    display: inline-block;
+        width: 1.4vw;
+        height: 1.4vw;
+}
+#i181,#i1812 {
+    width: 1.4vw;
+    height: 1.4vw;
+    display: none;
+}
 #i18:hover {
     width: 3vw;
     height: 3vw;
+}
+
+#i181:hover,#i171:hover ,#i1812:hover,
+#i1712:hover{
+    width: 2vw;
+    height: 2vw;
 }
 
 #img1:hover {
     width: 3vw;
     height: 3vw;
 }
-
 #i17:hover {
     width: 3vw;
     height: 3vw;
@@ -250,20 +263,22 @@ input:checked+.slider:before {
 
 #first1 {
     flex: 0 0 45%;
-    border: 1px solid red;
+    margin: 0vw 1vw 0vw 1vw;
+    /* border: 1px solid red; */
 }
 
 #second1 {
     flex: 0 0 45%;
-    border: 1px solid blue;
+    margin: 0vw 1vw 0vw 1vw;
+    /* border: 1px solid blue; */
 }
 
 .img2 {
-    width: 30vw;
+    width: 28vw;
 }
 
 .img2:hover {
-    width: 35vw;
+    width: 31vw;
 }
 
 #img5 {
