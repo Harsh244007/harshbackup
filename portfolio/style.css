@@ -223,7 +223,10 @@ input:checked+.slider:before {
     color: red !important;
     text-decoration: none;
 }
-
+.link1{
+    text-decoration: none;
+    color: red;
+}
 #i171,#i1712{
     display: inline-block;
         width: 1.4vw;
