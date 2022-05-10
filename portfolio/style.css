@@ -212,7 +212,18 @@ input:checked+.slider:before {
 #con1 {
     display: none;
 }
-
+#p211 {
+    color:#ccc;
+    font-weight: bold;
+       
+        font-size: 1.2vw;
+        /* font-family: "Courier New"; */
+        font-family: 'TT-Norms-ProTT-Norms-Pro';
+        text-decoration: none;
+}
+#p211:hover{
+    color: red !important
+}
 .p21 {
     font-weight: bold;
     margin: 1vw 0vw 0vw 0vw;
@@ -227,6 +238,7 @@ input:checked+.slider:before {
     text-decoration: none;
     color: red;
 }
+
 #i171,#i1712{
     display: inline-block;
         width: 1.4vw;

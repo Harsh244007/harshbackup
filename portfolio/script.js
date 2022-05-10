@@ -18,6 +18,7 @@ function dark() {
   count++;
   localStorage.setItem("darkf", count);
   var img = document.getElementById("img");
+  var p211 = document.getElementById("p211");
   var body = document.getElementById("body");
   var i17 = document.getElementById("i17");
   var i18 = document.getElementById("i18");
@@ -28,6 +29,7 @@ function dark() {
   if (count % 2 == 0) {
     body.style.backgroundColor = "#1e1e1e";
     body.style.color = "white";
+    p211.style.color = "#ccc";
     document.getElementById("harsh").style.color = "white";
     img.style.border = "solid red";
     img.style.boxShadow = " 0 0 0.9vw 0.8vw rgba(255, 8, 8, 0.27)";
@@ -39,6 +41,7 @@ function dark() {
     i1812.style.display = "none";
     i1712.style.display = "inline-block";
   } else {
+    p211.style.color = "black";
     body.style.color = "black";
     document.getElementById("harsh").style.color = "black";
     body.style.backgroundColor = "white";
