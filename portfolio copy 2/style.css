@@ -7,37 +7,9 @@
 @media screen and (max-width:1400px){
     #switchwhitemode {visibility: hidden;
         }
-                .logo {
-                    width: 4vw !important;
-                    height: 6vh !important;
-                }
 }
-#skills-first-row{
-    /* width: 2vw;
-    height: 2vh; */
-    gap: 3vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1vw;
-} 
-#skillte{
-    margin: 1vh 1vw ;
-    padding: 2vh 2vw;
-}   
-.logo{
-    width: 4vw;
-    height: 8vh;
-}
-#skills-second-row {
-    /* width: 2vw;
-        height: 2vh; */
-        gap: 3vw;
-    font-size: 1vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    
+
 
 .slider.round:before {
     border-radius: 50%;
@@ -125,7 +97,7 @@ input:checked+.slider:before {
 
 #body {
     color: white;
-    background-color: #2e2e2e;
+    background-color: #292929;
     margin: 1vw 2vw 1vw 2vw;
 }
 
