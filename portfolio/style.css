@@ -235,7 +235,7 @@ input:checked+.slider:before {
     font-weight: bold;
     margin: 1vw 0vw 0vw 0vw;
     padding: 0vw 0vw 0vw 0vw;
-    font-size: 1.3vw;
+    font-size: 1.0vw;
     /* font-family: "Courier New"; */
     font-family: 'TT-Norms-ProTT-Norms-Pro';
     color: red !important;
