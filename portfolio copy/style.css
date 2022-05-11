@@ -4,12 +4,6 @@
     width: 3.5vw;
     height: 4vh;
 }
-@media screen and (max-width:1400px){
-    #switchwhitemode {visibility: hidden;
-        }
-}
-    
-
 
 .slider.round:before {
     border-radius: 50%;
@@ -89,7 +83,6 @@ input:checked+.slider:before {
 }
 
 .right {
-    font-size: 1vw;
     flex: 0 0 76%;
     margin-left: 20vw;
     width: 100%;
