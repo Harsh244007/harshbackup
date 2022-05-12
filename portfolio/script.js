@@ -5,17 +5,53 @@ else if (n > 2) {
   count--;
   dark();
 }
-// var count1 = 1;
-// // function hme1() {
-// //   //   count1++;
-// //   //   if (count % 2 == 0) {
-// //   document.getElementById("home1").style.display = "block";
-// //   document.getElementById("home2").style.display = "none";
-// // }
-// // function hme2() {
-// //   document.getElementById("home1").style.display = "none";
-// //   document.getElementById("home2").style.display = "block";
-// // }
+var count1 = 1;
+
+function hme1() {
+  //   count1++;
+  //   if (count % 2 == 0) {
+  document.getElementById("home1").style.display = "block";
+  document.getElementById("home2").style.display = "none";
+  document.getElementById("home3").style.display = "none";
+  document.getElementById("home4").style.display = "none";
+  document.getElementById("p11").style.color = "red";
+  // document.getElementById("p12").style.color = "white";
+  // document.getElementById("p13").style.color = "white";
+  // document.getElementById("p14").style.color = "white";
+}
+function hme2() {
+  document.getElementById("home2").style.display = "block";
+  document.getElementById("home1").style.display = "none";
+  document.getElementById("home3").style.display = "none";
+  document.getElementById("home4").style.display = "none";
+  document.getElementById("p12").style.color = "red";
+  // document.getElementById("p11").style.color = "white";
+  // document.getElementById("p13").style.color = "white";
+  // document.getElementById("p14").style.color = "white";
+}
+
+function hme3() {
+  //   count1++;
+  //   if (count % 2 == 0) {
+  document.getElementById("p13").style.color = "red";
+  // document.getElementById("p12").style.color = "white";
+  // document.getElementById("p11").style.color = "white";
+  // document.getElementById("p14").style.color = "white";
+  document.getElementById("home3").style.display = "block";
+  document.getElementById("home2").style.display = "none";
+  document.getElementById("home1").style.display = "none";
+  document.getElementById("home4").style.display = "none";
+}
+function hme4() {
+  document.getElementById("p14").style.color = "red";
+  // document.getElementById("p12").style.color = "white";
+  // document.getElementById("p13").style.color = "white";
+  // document.getElementById("p11").style.color = "white";
+  document.getElementById("home4").style.display = "block";
+  document.getElementById("home1").style.display = "none";
+  document.getElementById("home3").style.display = "none";
+  document.getElementById("home2").style.display = "none";
+}
 
 function skill() {
   window.location.href = "skills.html";
@@ -42,7 +78,7 @@ function dark() {
   var i1712 = document.getElementById("i1712");
   var i1812 = document.getElementById("i1812");
   if (count % 2 == 0) {
-    body.style.backgroundColor = " #2e2e2e";
+    body.style.backgroundColor = "#1e1e1e";
     body.style.color = "white";
     p211.style.color = "#ccc";
     document.getElementById("harsh").style.color = "white";
@@ -59,7 +95,7 @@ function dark() {
     p211.style.color = "black";
     body.style.color = "black";
     document.getElementById("harsh").style.color = "black";
-    body.style.backgroundColor = "#f2f2f2";
+    body.style.backgroundColor = "white";
     img.style.border = "none";
     i17.style.display = "none";
     i18.style.display = "inline-block";
