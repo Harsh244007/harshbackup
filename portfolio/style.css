@@ -201,7 +201,9 @@ input:checked + .slider:before {
   color: red;
   font-weight: 300;
 }
-#p12, #p13, #p14 {
+#p12,
+#p13,
+#p14 {
   margin: 1vw 0vw 0vw 0vw;
   padding: 0vw 0vw 0vw 0vw;
   font-size: 0.9vw;
@@ -236,7 +238,8 @@ input:checked + .slider:before {
 }
 
 .hr {
-  width: 13vw;
+  width: 12vw;
+  height: 0.001vw;
 }
 
 #hand {
