@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Harsh Patel contact.</title>
+    <title>Harsh Patel's portfolio.</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google" content="notranslate" />
@@ -192,8 +192,8 @@
       height: 2vw;
     }
     #home1 {
-      display: flex;
       text-align: center;
+      /* border: 1px solid red; */
       margin: 10vw 12vw 10vw 12vw;
       padding: auto;
       display: block;
@@ -205,13 +205,14 @@
       display: none;
     }
     .p21 {
+      font-weight: bold;
       margin: 1vw 0vw 0vw 0vw;
       padding: 0vw 0vw 0vw 0vw;
-      font-size: 1vw;
-      font-weight: bold;
+      font-size: 1.0vw;
       font-family: "Courier New";
       color: red !important;
     }
+
     #i18:hover {
       width: 3vw;
       height: 3vw;
@@ -227,12 +228,14 @@
     #h1y {
       text-decoration: none;
       color: red;
+      font-size: 1.1vw;
       font-family: sans-serif;
       font-weight: 100;
     }
     #h1y:active {
       text-decoration: none;
     }
+   
   </style>
   <body id="body">
     <div class="header">
@@ -264,13 +267,13 @@
         <p class="p11">MERN Stack Devloper</p>
         <br />
         <hr class="hr" />
-        <p class="p11" onclick="home()">HOME</p>
+        <p class="p21" onclick="home()">HOME</p>
         <hr class="hr" />
         <p class="p11" onclick="pro12()">PROJECTS</p>
         <hr class="hr" />
-        <p class="p21" onclick="cont1()">CONTACT</p>
+        <p class="p11" onclick="cont1()">CONTACT</p>
         <hr class="hr" />
-        <p class="p11" onclick="skill()">SKILLS</p>
+           <p class="p11" onclick="skill()">SKILLS</p>
         <hr class="hr" />
         <a
           target="_blank"
@@ -291,7 +294,20 @@
         </div>
       </div>
       <div class="right">
-       
+        <div id="home1">
+          <h2>
+            Hello, I am Harsh. I am a Full-stack developer for MERN stack. I
+            love creating webapps with React. I posses some superpower few which
+            are communication skill, collaborative skills, passionate about
+            coding and learning new technologies.
+          </h2>
+          <h2>
+            You can find
+            <a id="h1y" href="./projects.html">Projects info here, </a>or you
+            can
+            <a id="h1y" href="./contacts.html">Reach me here.</a>
+          </h2>
+        </div>
       </div>
     </div>
   </body>

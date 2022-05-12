@@ -6,15 +6,51 @@ else if (n > 2) {
   dark();
 }
 var count1 = 1;
+
 function hme1() {
   //   count1++;
   //   if (count % 2 == 0) {
   document.getElementById("home1").style.display = "block";
   document.getElementById("home2").style.display = "none";
+  document.getElementById("home3").style.display = "none";
+  document.getElementById("home4").style.display = "none";
+  document.getElementById("p11").style.color = "red";
+  // document.getElementById("p12").style.color = "white";
+  // document.getElementById("p13").style.color = "white";
+  // document.getElementById("p14").style.color = "white";
 }
 function hme2() {
-  document.getElementById("home1").style.display = "none";
   document.getElementById("home2").style.display = "block";
+  document.getElementById("home1").style.display = "none";
+  document.getElementById("home3").style.display = "none";
+  document.getElementById("home4").style.display = "none";
+  document.getElementById("p12").style.color = "red";
+  // document.getElementById("p11").style.color = "white";
+  // document.getElementById("p13").style.color = "white";
+  // document.getElementById("p14").style.color = "white";
+}
+
+function hme3() {
+  //   count1++;
+  //   if (count % 2 == 0) {
+  document.getElementById("p13").style.color = "red";
+  // document.getElementById("p12").style.color = "white";
+  // document.getElementById("p11").style.color = "white";
+  // document.getElementById("p14").style.color = "white";
+  document.getElementById("home3").style.display = "block";
+  document.getElementById("home2").style.display = "none";
+  document.getElementById("home1").style.display = "none";
+  document.getElementById("home4").style.display = "none";
+}
+function hme4() {
+  document.getElementById("p14").style.color = "red";
+  // document.getElementById("p12").style.color = "white";
+  // document.getElementById("p13").style.color = "white";
+  // document.getElementById("p11").style.color = "white";
+  document.getElementById("home4").style.display = "block";
+  document.getElementById("home1").style.display = "none";
+  document.getElementById("home3").style.display = "none";
+  document.getElementById("home2").style.display = "none";
 }
 
 function skill() {
