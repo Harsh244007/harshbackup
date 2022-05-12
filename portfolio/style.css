@@ -199,15 +199,14 @@ input:checked + .slider:before {
   font-size: 0.9vw;
   font-family: "TT-Norms-ProTT-Norms-Pro";
   color: red;
-  font-weight: bold;
+  font-weight: 300;
 }
-#p12 #p13 #p14 {
+#p12, #p13, #p14 {
   margin: 1vw 0vw 0vw 0vw;
   padding: 0vw 0vw 0vw 0vw;
   font-size: 0.9vw;
   font-family: "TT-Norms-ProTT-Norms-Pro";
-  color: red;
-  font-weight: bold;
+  font-weight: 300;
 }
 
 .p11:hover {
