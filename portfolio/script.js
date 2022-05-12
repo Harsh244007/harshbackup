@@ -73,6 +73,8 @@ function dark() {
   var body = document.getElementById("body");
   var i17 = document.getElementById("i17");
   var i18 = document.getElementById("i18");
+  var i1711 = document.getElementById("i1711");
+  var i1811 = document.getElementById("i1811");
   var i171 = document.getElementById("i171");
   var i181 = document.getElementById("i181");
   var i1712 = document.getElementById("i1712");
@@ -88,7 +90,8 @@ function dark() {
     i17.style.display = "inline-block";
     i181.style.display = "none";
     i171.style.display = "inline-block";
-
+        i1811.style.display = "none";
+        i1711.style.display = "inline-block";
     i1812.style.display = "none";
     i1712.style.display = "inline-block";
   } else {
@@ -101,7 +104,8 @@ function dark() {
     i18.style.display = "inline-block";
     i171.style.display = "none";
     i181.style.display = "inline-block";
-
+        i1711.style.display = "none";
+        i1811.style.display = "inline-block";
     i1712.style.display = "none";
     i1812.style.display = "inline-block";
     img.style.boxShadow = "0 0 0.6vw 0.6vw #84cbdb";

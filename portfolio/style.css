@@ -318,7 +318,9 @@ input:checked + .slider:before {
 #con1 {
   display: none;
 }
-
+.links {
+  display: inline-block;
+}
 #p211 {
   color: #ccc;
   font-weight: bold;
@@ -350,6 +352,7 @@ input:checked + .slider:before {
 }
 
 #i171,
+#i1711,
 #i1712 {
   display: inline-block;
   width: 1.4vw;
@@ -357,6 +360,7 @@ input:checked + .slider:before {
 }
 
 #i181,
+#i1811,
 #i1812 {
   width: 1.4vw;
   height: 1.4vw;
@@ -369,6 +373,8 @@ input:checked + .slider:before {
 }
 
 #i181:hover,
+#i1811:hover,
+#i1711:hover,
 #i171:hover,
 #i1812:hover,
 #i1712:hover {
