@@ -6,13 +6,49 @@
 }
 
 @media screen and (max-width: 1400px) {
-  #switchwhitemode {
+  /* #switchwhitemode {
     visibility: hidden;
-  }
+  } */
 
   .logo {
     width: 4vw !important;
     height: 6vh !important;
+  }
+  .slider.round {
+    border-radius: 31vw;
+    width: 4vw;
+    height: 2.2vh;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* #switchwhitemode {
+    visibility: hidden;
+  } */
+
+  .logo {
+    width: 4vw !important;
+    height: 6vh !important;
+  }
+  .slider.round {
+    border-radius: 31vw;
+    width: 4vw;
+    height: 1.2vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* #switchwhitemode {
+    visibility: hidden;
+  } */
+
+  .logo {
+    width: 4vw !important;
+    height: 6vh !important;
+  }
+  .slider.round {
+    border-radius: 31vw;
+    width: 4vw;
+    height: 0.8vh;
   }
 }
 #skills-first-row {
@@ -83,7 +119,7 @@
   content: "";
   height: 1.5vw;
   width: 1.5vw;
-  left: 0.3vw;
+  left: 0.2vw;
   bottom: 0.2vw;
   background-color: white;
   -webkit-transition: 0.4s;
@@ -99,9 +135,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  -webkit-transform: translateX(26vw);
+  -ms-transform: translateX(26vw);
+  transform: translateX(2vw);
 }
 
 #h11 {
@@ -239,7 +275,7 @@ input:checked + .slider:before {
 
 .hr {
   width: 12vw;
-  height: 0.001vw;
+  height: 0.001vh;
 }
 
 #hand {
