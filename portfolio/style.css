@@ -211,7 +211,10 @@ input:checked + .slider:before {
   border-radius: 12vw;
   box-shadow: 0 0 0.9vw 0.8vw rgba(255, 8, 8, 0.27);
 }
-
+.ex1{
+width:auto;
+height:auto;
+}
 #harsh {
   font-weight: 200;
   font-size: 2vw;
