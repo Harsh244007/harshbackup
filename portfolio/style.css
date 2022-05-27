@@ -7,33 +7,46 @@
 @media screen and (min-width: 850px) and (max-width: 1150px) {
   #ex1,
   #ex2,
+  #ex4,
   #ex0 {
     height: 5.5vh;
     width: 5.5vw;
     /* display: none; */
+    
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 850px) {
   #ex1,
   #ex2,
+  #ex4,
   #ex0 {
     height: 3vh;
     width: 3vw;
     /* display: none; */
+
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
   }
 }
 @media screen and (min-width: 250px) and (max-width: 500px) {
   #ex1,
   #ex2,
+  #ex4,
   #ex0 {
     height: 2.4vh !important;
     width: 2.4vw !important;
     /* display: none; */
+
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
   }
 }
 @media screen and (max-width: 250px) {
   #ex1,
   #ex2,
+  #ex4,
   #ex0 {
     height: 1vh !important;
     width: 2vw !important;
@@ -251,10 +264,7 @@ input:checked + .slider:before {
   border-radius: 12vw;
   box-shadow: 0 0 0.9vw 0.8vw rgba(255, 8, 8, 0.27);
 }
-#ex1 {
-  /* width:auto; */
-  /* height:auto; */
-}
+
 #harsh {
   font-weight: 200;
   font-size: 2vw;
