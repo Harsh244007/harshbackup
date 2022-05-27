@@ -81,6 +81,8 @@ function dark() {
   var i181 = document.getElementById("i181");
   var i1712 = document.getElementById("i1712");
   var i1812 = document.getElementById("i1812");
+  var i1714 = document.getElementById("i1714");
+  var i1814 = document.getElementById("i1814");
   if (count % 2 == 0) {
     body.style.backgroundColor = "#1e1e1e";
     body.style.color = "white";
@@ -99,6 +101,9 @@ function dark() {
     i1811.style.display = "none";
     i1711.style.display = "inline-block";
     i1812.style.display = "none";
+
+    i1714.style.display = "inline-block";
+    i1814.style.display = "none";
     i1712.style.display = "inline-block";
   } else {
     // ex0.style.display = "none";
@@ -118,6 +123,8 @@ function dark() {
     i1811.style.display = "inline-block";
     i1712.style.display = "none";
     i1812.style.display = "inline-block";
+    i1714.style.display = "none";
+    i1814.style.display = "inline-block";
     img.style.boxShadow = "0 0 0.6vw 0.6vw #84cbdb";
   }
 }

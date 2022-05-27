@@ -353,7 +353,8 @@ input:checked + .slider:before {
 
 #i171,
 #i1711,
-#i1712 {
+#i1712,
+#i1714 {
   display: inline-block;
   width: 1.4vw;
   height: 1.4vw;
@@ -361,7 +362,8 @@ input:checked + .slider:before {
 
 #i181,
 #i1811,
-#i1812 {
+#i1812,
+#i1814 {
   width: 1.4vw;
   height: 1.4vw;
   display: none;
@@ -395,27 +397,33 @@ input:checked + .slider:before {
 #main2 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
 }
 
 #first1 {
-  flex: 0 0 45%;
+  flex: 0 0 25%;
   margin: 0vw 1vw 0vw 1vw;
   /* border: 1px solid red; */
 }
 
 #second1 {
-  flex: 0 0 45%;
+  flex: 0 0 20%;
+  margin: 0vw 1vw 0vw 1vw;
+  /* border: 1px solid blue; */
+}
+
+#third1 {
+  flex: 0 0 25%;
   margin: 0vw 1vw 0vw 1vw;
   /* border: 1px solid blue; */
 }
 
 .img2 {
-  width: 28vw;
+  width: 20vw;
 }
 
 .img2:hover {
-  width: 31vw;
+  width: 25vw;
 }
 
 #img5 {
